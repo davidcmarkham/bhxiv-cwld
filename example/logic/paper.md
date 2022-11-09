@@ -1,53 +1,33 @@
 ---
-title: 'BioHackrXiv template this is an example of a (too) long title mpla mpla mpla mpla mpla mpla mpla mpla mpla mpla mpla c wjfc wjknwjek nwjkwen jk'
-title_short: 'Logic Programming for the Biomedical Sciences'
+title: 'Colloquial language mappings to ontologies for wet lab biology'
+title_short: 'CWLD'
 tags:
-  - logic programming
+  - ontologies
 authors:
-  - name: Chris Mungall
-    orcid: 0000-0002-8021-9162
+  - name: David Markham
+    orcid: 0000-0001-7765-369X
     affiliation: 1
-  - name: Hirokazu Chiba
+  - name: James McLaughlin
+    orcid: 0000-0002-8361-2795
     affiliation: 2
-  - name: Shuichi Kawashima
-    affiliation: 2
-  - name: Yasunori Yamamoto
-    affiliation: 2
-  - name: Pjotr Prins
-    orcid: 0000-0002-8021-9162
-    affiliation: 3
-  - name: Nada Amin
-    affiliation: 4
-  - name: Deepak Unni
-    affiliation: 5
-    orcid: 0000-0002-3583-7340
-  - name: <nobr>William&nbsp;E.&nbsp;Byrd</nobr>
-    affiliation: 6
 affiliations:
-  - name: Environmental Genomics and Systems Biology, Lawrence Berkeley National Laboratory, Berkeley, CA, USA
+  - name: Newcastle University, Newcastle-upon-Tyne, UK
     index: 1
-  - name: Database Center for Life Science, Research Organization of Information and Systems, Japan
+  - name: EMBL-EBI, Hinxton, Cambridge, UK
     index: 2
-  - name: Department of Genetics, Genomics and Informatics, The University of Tennessee Health Science Center, Memphis, TN, USA.
-    index: 3
-  - name: Harvard University, USA
-    index: 4
-  - name: Berkeley Lab, USA
-    index: 5
-  - name: University of Alabama at Birmingham, USA
-    index: 6
-date: 3 March 2020
+date: 12 November 2022
 cito-bibliography: paper.bib
-event: Fukuoka2019
+event: BioHackathon Europe 2022
 biohackathon_name: "NBDC/DBCLS BioHackathon"
 biohackathon_url:   "http://2019.biohackathon.org/"
-biohackathon_location: "Fukuoka, Japan, 2019"
+biohackathon_location: "Paris, France, 2022"
 group: Logic programming group
 # URL to project git repo --- should contain the actual paper.md:
 git_url: https://github.com/biohackrxiv/bhxiv-gen-pdf
 # This is the short authors description that is used at the
 # bottom of the generated paper (typically the first two authors):
-authors_short: Chris Mungall & Hirokazu Chiba \emph{et al.}
+authors_short: David Markham & James McLaughlin
+
 ---
 
 
@@ -66,48 +46,113 @@ pasting above link (or yours) in
 
 # Introduction
 
-As part of the one week Biohackathion 2019 in Fukuoka Japan, we formed
-a working group on logic programming for the biomedical sciences.
-Logic programming is understood by many bioinformaticians when it is
-presented in the form of relational SQL queries or SPARQL
-queries. More advanced logic programming, however, is underutilized in
-bioinformatics.  Prolog, for example, is a high-level programming
-language that has its roots in first-order logic or first-order
-predicate calculus.  Another example, miniKanren, is an embedded
-Domain Specific Language for logic programming. Core miniKanren is
-exceptionally simple, with only three logical operators and one
-interface operator [@uses_method_in:reasoned2nd].
+The use of ontology terms can make data more FAIR and tractable by machines. However, the highly formalised terminology used by these ontology terms does not always match the colloquial language used by practitioners. This disparity can (a) make it difficult for practitioners to understand the language used by knowledge stored in ontologies; and (b) make it difficult to machine-interpret information written by practitioners to map it to ontologies.
 
+This problem is particularly relevant in the ELIXIR Microbial Biotechnology community, as although the domain has adopted ontologies and data standards such as SO, SBO, GO, and SBOL for data representation, the tools developed often use ontology terms directly rather than the language used in the wet lab (i.e. by the people using the tools.)
+
+At the BioHackathon 2022 in Paris, France, we initiated an effort to address this problem by (a) mining the internet for colloquial language used by biologists, (b) constructing a dictionary of this language and its mappings to ontology terms, and (3) constructing a recommendation table of terminology for MB tool developers based on this data.
+
+While initially developed to serve the MB community, we hope that the dictionary will serve as a helpful resource for anyone hoping to map from colloquial wet lab language to ontology terms for e.g. text mining applications.
+
+# Using Stack Exchange to gather colloquial domain language
+
+Replace below with word cloud png
 ![Logic programming resolver traverses the solution space to find all matches \label{fig}](./logic-programming.png)
 
 ![An SVG example](./test.svg)
 
-The introduction of logic programming is particularly relevant in the
-context of multi-model data representations where data can be accessed
-in memory as free data structures, but also on disk where data can be
-represented as tables, trees (documents), and graphs. In
-bioinformatics we can make use of all these different data sources and
-have a query engine that can mine them all efficiently.
+# Creating a dictionary of colloquial wet lab terminology
 
-Logic programming is well-suited for biological research. Essentially,
-a researcher writes a number of statements that include variables
-representing unknown information.  The logic engine then goes through
-the solution space (all data) to find possible matches (see figure
-\ref{fig}). Much more detail on the rationale and implementations of
-miniKanren and logic programming are well summarized in Byrd's book
-\emph{The Reasoned Schemer, Second Edition} [@agreesWith:reasoned2nd], PhD thesis
-[@ByrdPhD], and [online](https://www.youtube.com/watch?v=eQL48qYDwp4)
-[talks](https://www.youtube.com/watch?v=o3AHnyEf7IE).
+An issue we encountered in making the dictionary available is that there is no standard/FAIR data format to publish string to term mappings. The SSSOM (Super Simple Standard for Ontology Mappings) supports term to term mappings, but not string to term. We have discussed with the SSSOM developers about implementing support for this, and are helping with a pull request to add it to the standard. We will then hopefully be able to publish the dictionary in the future using SSSOM.
 
-The `Logic Programming' working group at the 2019 edition of the
-annual Japanese BioHackathon applied logic programming to various problems.
-The working group:
-\begin{itemize}
-\item researched state-of-the-art mapping between graph stores and logic programming;
-\item created methods for bridging between SPARQL and in-memory data representations using Prolog;
-\item extended the Biolink model;
-\item and added Relational Biolink type inference for mediKanren.
-\end{itemize}
+
+
+
+
+
+
+# Terminology recommendations for Microbial Biotechnology tool developers
+This list is non-exhaustive, but covers a selection of terms that we noticed differ between MB tools.
+
+
+<table>
+  <thead>
+    <th>Term</th>
+    <th>MB tools/ontologies using this term</th>
+    <th>Frequency on Biology Stack Exchange</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Component</td>
+      <td>SBOL, SBOLDesigner, SBOLCanvas</td>
+      <td>2163</td>
+    </tr>
+    <tr>
+      <td>Module</td>
+      <td>SBOL</td>
+      <td>311</td>
+    </tr>
+    <tr>
+      <td>Device</td>
+      <td></td>
+      <td>677</td>
+    </tr>
+    <tr>
+      <td>System</td>
+      <td></td>
+      <td>16098</td>
+    </tr>
+    <tr>
+      <td>Ribosome Entry Site</td>
+      <td>SO</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>RBS</td>
+      <td></td>
+      <td>548</td>
+    </tr>
+    <tr>
+      <td>Upregulation</td>
+      <td></td>
+      <td>79</td>
+    </tr>
+    <tr>
+      <td>Downregulation</td>
+      <td></td>
+      <td>91</td>
+    </tr>
+  </tbody>
+  </table>
+
+# Availability
+
+The dictionary is available in CSV format at 
+
+# Future work
+
+
+We have used the Stack Exchange dataset to analyse the popularity of a small set of terms used in MB which differ between different tools. The next step would be to apply this to entire ontologies, annotating every label and synonym in the ontology with its popularity. This information could then be used to inform whether the primary label of the term should be preferred, or whether a synonym should be preferred instead.
+
+It would also be interesting to explore how the Stack Exchange datasets can be used to gather domain-specific language for different domains, using a similar approach subtracting “meta” terms and analysing the delta. There are 98 Stack Exchange sites at the time of writing.
+
+We intend to publish the dictionary using SSSOM, once the ability to map strings to terms has been implemented.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <!--
 # Results
