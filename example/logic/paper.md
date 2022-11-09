@@ -19,9 +19,9 @@ date: 12 November 2022
 cito-bibliography: paper.bib
 event: BioHackathon Europe 2022
 biohackathon_name: "NBDC/DBCLS BioHackathon"
-biohackathon_url:   "http://2019.biohackathon.org/"
+biohackathon_url:   "http://biohackathon-europe.org/"
 biohackathon_location: "Paris, France, 2022"
-group: Logic programming group
+<!-- group: Project 14 -->
 # URL to project git repo --- should contain the actual paper.md:
 git_url: https://github.com/biohackrxiv/bhxiv-gen-pdf
 # This is the short authors description that is used at the
@@ -57,9 +57,7 @@ While initially developed to serve the MB community, we hope that the dictionary
 # Using Stack Exchange to gather colloquial domain language
 
 Replace below with word cloud png
-![Logic programming resolver traverses the solution space to find all matches \label{fig}](./logic-programming.png)
-
-![An SVG example](./test.svg)
+![Most commonly used words on Biology Stack Exchange](./wordcloud.png)
 
 # Creating a dictionary of colloquial wet lab terminology
 
