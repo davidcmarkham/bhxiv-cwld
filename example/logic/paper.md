@@ -200,7 +200,9 @@ The dictionary is available in CSV format at
 # Future work
 
 * **Informing ontologies:** We have used the Stack Exchange dataset to analyse the popularity of a small set of terms used in MB which differ between different tools. The next step would be to apply this to entire ontologies, annotating every label and synonym in the ontology with its popularity. This information could then be used to inform whether the primary label of the term should be preferred, or whether a synonym should be preferred instead.
+
 * **Application to other domains:** It would also be interesting to explore how the Stack Exchange datasets can be used to gather domain-specific language for different domains, using a similar approach subtracting “meta” terms and analysing the delta. There are 98 Stack Exchange sites at the time of writing.
+
 * **FAIR publication of CWLD:** We intend to publish the dictionary using SSSOM, once the ability to map strings to terms has been implemented. This will allow it to be used with any tooling that supports SSSOM, without any specific code being added for CWLD.
 
 ## Acknowledgements
