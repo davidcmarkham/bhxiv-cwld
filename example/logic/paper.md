@@ -18,7 +18,7 @@ affiliations:
 date: 12 November 2022
 cito-bibliography: paper.bib
 event: BioHackathon Europe 2022
-biohackathon_name: "NBDC/DBCLS BioHackathon"
+biohackathon_name: "BioHackathon Europe 2022"
 biohackathon_url:   "http://biohackathon-europe.org/"
 biohackathon_location: "Paris, France, 2022"
 group: Project 14
@@ -43,6 +43,9 @@ pasting above link (or yours) in
 
 -->
 
+# List of Abbreviations
+CSV - Comma Separated Values; FAIR - Findable, Accessible, Interoperable and Reusable; GO - Gene Ontology; MB - Microbial Biotechnology; RBS - Ribosome Binding Site; SBO - Systems Biology Ontology; SBOL - Synthetic Biology Open Language; SE - Stack Exchange; SO - Sequence Ontology; SSSOM - Super Simple Standard for Ontology Mappings; XML - eXtensible Markup Language
+
 # Introduction
 
 The use of ontology terms can make data more FAIR and tractable by machines. However, the highly formalised terminology used by these ontology terms does not always match the colloquial language used by practitioners. This disparity can (a) make it difficult for practitioners to understand the language used by knowledge stored in ontologies; and (b) make it difficult to machine-interpret information written by practitioners to map it to ontologies.
@@ -55,7 +58,7 @@ While initially developed to serve the MB community, we hope that the dictionary
 
 # Using Stack Exchange to gather colloquial domain language
 
-Biology Stack Exchange is a forum where colloquial language is used to ask and answer questions throughout the domain. We took the data available at <data dump location::date> and extracted the words in the posts and comments to count up the frequency in which each word is used. To remove commonly used words and words that are non-specific to biology, we performed the same exercise on Meta Stack Exchange and subtracted the most commonly used words on the Meta dataset from the Biology dataset. This resulted in a set of words that were commonly used on the Biology Stack Exchange and the frequency in which each word appeared. We used this to generate a wordcloud.
+Biology Stack Exchange is a forum where colloquial language is used to ask and answer questions throughout the domain. We took the data available at [archive.org/download/stackexchange](https://archive.org/download/stackexchange) and extracted the words in the posts and comments to count up the frequency in which each word is used. To remove commonly used words and words that are non-specific to biology, we performed the same exercise on Meta Stack Exchange and subtracted the most commonly used words on the Meta dataset from the Biology dataset. This resulted in a set of words that were commonly used on the Biology Stack Exchange and the frequency in which each word appeared. We used this to generate a wordcloud.
 
 ![Most commonly used words on Biology Stack Exchange](./wordcloud.png)
 
@@ -65,7 +68,7 @@ An issue we encountered in making the dictionary available is that there is no s
   
 The table below shows an example of some of these terms and how they map to ontology terms.
   
-\begin{tabular}{ |p{2cm}|p{1cm}|p{1.6cm}|p{3cm}|p{3cm}|p{3cm}| }
+\begin{tabular}{ |p{2cm}|p{1cm}|p{1.6cm}|p{3cm}|p{2.9cm}|p{3cm}| }
 \hline  
 \textbf{Name} & \textbf{Type} & \textbf{Domain} & \textbf{Description} & \textbf{Ontology Mapping} & \textbf{Wikipedia reference} \\
 \hline  
@@ -184,7 +187,7 @@ We intend to publish the dictionary using SSSOM, once the ability to map strings
 
 ## Acknowledgements
 
-With thanks to the oranisers of BioHackathon Europe for
+With thanks to the organisers of BioHackathon Europe for
 providing an excellent environment to inspire this work
 and for funding the travel arrangements of the authors.
 
