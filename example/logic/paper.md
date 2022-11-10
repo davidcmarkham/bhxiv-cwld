@@ -1,5 +1,5 @@
 ---
-title: 'Mapping colloquial wet lab language to ontologies'
+title: 'CWLD: Mapping colloquial wet lab language to ontologies'
 title_short: 'CWLD'
 tags:
   - ontologies
@@ -58,21 +58,23 @@ The use of ontology terms can make data more FAIR and tractable by machines. How
 
 This problem is particularly relevant in the ELIXIR Microbial Biotechnology (MB) community, as although the domain has adopted ontologies and data standards such as SO [@eilbeck2005sequence], SBO [@courtot2011controlled], GO [@gene2004gene], and SBOL [@galdzicki2014synthetic] for data representation, the tools developed often use ontology terms directly rather than the language used in the wet lab (i.e. by the people using the tools.)
 
-At the [BioHackathon](https://biohackathon-europe.org) 2022 in Paris, France, we initiated an effort to address this problem by (a) mining the internet for colloquial language used by biologists, (b) constructing a dictionary of this language and its mappings to ontology terms, and (c) constructing a recommendation table of terminology for MB tool developers based on this data.
+
+# Results
+
+
+At the [BioHackathon](https://biohackathon-europe.org) 2022 in Paris, France, we initiated an effort to address this problem by (a) mining the internet for colloquial language used by biologists; (b) constructing a dictionary (_CWLD: colloquial wet lab dictionary_) of this language and its mappings to ontology terms; and (c) constructing a table of the occurrences of different terminology used in MB tools and resources.
 
 While initially developed to serve the MB community, we hope that the dictionary will serve as a helpful resource for anyone hoping to map from colloquial wet lab language to ontology terms for e.g. text mining applications.
 
-# Using Stack Exchange to gather colloquial domain language
+## Using Stack Exchange to gather colloquial domain language
 
-Biology Stack Exchange is a forum where colloquial language is used to ask and answer questions throughout the domain. We took the data available at [archive.org/download/stackexchange](https://archive.org/download/stackexchange) and extracted the words in the posts and comments to count up the frequency in which each word is used. To remove commonly used words and words that are non-specific to biology, we performed the same exercise on Meta Stack Exchange and subtracted the most commonly used words on the Meta dataset from the Biology dataset. This resulted in a set of words that were commonly used on the Biology Stack Exchange and the frequency in which each word appeared. We used this to generate a wordcloud.
+Biology Stack Exchange is a forum where colloquial language is used to ask and answer questions throughout the biology domain. We took the data available at [archive.org/download/stackexchange](https://archive.org/download/stackexchange) and extracted the words in the posts and comments to count up the frequency in which each word is used. To remove commonly used words and words that are non-specific to biology, we performed the same exercise on Meta Stack Exchange and subtracted the most commonly used words on the Meta dataset from the Biology dataset. This resulted in a set of words that were commonly used on the Biology Stack Exchange and the frequency in which each word appeared. We used this to generate a wordcloud.
 
 ![Most commonly used words on Biology Stack Exchange](./wordcloud.png)
 
-# Creating a dictionary of colloquial wet lab terminology
-
-An issue we encountered in making the dictionary available is that there is no standard/FAIR data format to publish string to term mappings. The SSSOM (Super Simple Standard for Ontology Mappings) [@matentzoglu2022simple] supports term to term mappings, but not string to term. We have discussed with the SSSOM developers about implementing support for this, and are helping with a pull request to add it to the standard. We will then hopefully be able to publish the dictionary in the future using SSSOM.
-  
-The table below shows an example of some of these terms and how they map to ontology terms.
+## Creating a dictionary of colloquial wet lab terminology
+ 
+We used a combination of information gathered by talking to wet lab biologists at the BioHackathon, and wordclouds generated from the Biology Stack Exchange dataset, to generate a dictionary of colloquial wet lab biology language, which we have named CWLD (pronounced \emph{quilled}): Colloquial Wet Lab Dictionary. The table below shows a small example excerpt of CWLD terms and how they map to ontology terms.
   
 \begin{tabular}{ |p{1.8cm}|p{1.62cm}|p{3cm}|p{2.4cm}|p{3cm}| }
 \hline  
@@ -99,8 +101,11 @@ Upregulate & Molecular Biology & Positively influence gene expression & \texttt{
 \hline
 \end{tabular}
   
+An issue we encountered in making the dictionary available is that there is no standard/FAIR data format to publish string to term mappings. The SSSOM (Super Simple Standard for Ontology Mappings) [@matentzoglu2022simple] supports term to term mappings, but not string to term. We have discussed with the SSSOM developers about implementing support for this, and are helping with a pull request (https://github.com/mapping-commons/sssom/pull/235) to add it to the standard. We will then hopefully be able to publish the dictionary in the future using SSSOM.
+
 # Terminology in Microbial Biotechnology tools & resources
-This list is non-exhaustive, but covers a selection of terms that we noticed differ between MB tools such as SBOLDesigner [@zhang2017sboldesigner] and SBOLCanvas [@terry2021sbolcanvas].
+
+Using the Stack Exchange dataset, we also analysed the popularity of terms used in MB tools and resources to establish which terms are more commonly used. This list is non-exhaustive, but covers a selection of terms that we noticed differ between MB tools such as SBOLDesigner [@zhang2017sboldesigner] and SBOLCanvas [@terry2021sbolcanvas].
 
 
 \begin{tabular}{ |p{3cm}|p{3cm}|p{3cm}|p{3cm}| }
@@ -178,29 +183,11 @@ Chassis & & 3 & chassis + châssis \\
 \hline
 \end{tabular}
 
-  
-
 <!-- ![Table 1 - TEST]
   A table Caption here would be delightful, how do we do this?
 -->
 
-This data was collected by searching for strings within the Posts and Comments XML files (ignoring case sensitivity). There are issues with this methodology due to variations or typos in the way that this language may be used. Additionally, if punctuation was used before or after the word, it may not be included in the result due to the insertion of spaces in our search terms to account for prefixes and suffixes. This data is also prone to a lack of context. For example, the term "system" may be used in Engineering Biology to mean a genetic circuit but "system" is commonly used for other meanings. In future, a more robust approach could be used but this data provides an initial investigation into the use of some choice terminology.
-
-# Results
-
-<!--
-    State the problem you worked on
-    Give the state-of-the art/plan
-    Describe what you have done/results starting with The working group created...
-    Write a conclusion
-    Write up any future work
-
--->
-
-The following tasks were accomplished as part of the BioHackathon:
-
-- Initial Dictionary of Terms in CSV fomrat
-- Analysis of commonly used words on Stack Exchange
+This data was collected by searching for strings within the Posts and Comments XML files (ignoring case sensitivity). There are issues with this methodology due to variations or typos in the way that this language may be used. Additionally, if punctuation was used before or after the word, it may not be included in the result due to the insertion of spaces in our search terms to account for prefixes and suffixes. This data is also prone to a lack of context. For example, the term "system" may be used in Engineering Biology to mean a genetic circuit but "system" is commonly used for other meanings. In future, a more robust approach could be used, but this data provides an initial investigation into the use of some choice terminology.
 
 
 # Availability
@@ -217,8 +204,6 @@ We intend to publish the dictionary using SSSOM, once the ability to map strings
 
 ## Acknowledgements
 
-With thanks to the organisers of BioHackathon Europe for
-providing an excellent environment to inspire this work
-and for funding the travel arrangements of the authors.
+With thanks to ELIXIR and the organisers of BioHackathon Europe for providing an excellent environment to conduct this work, and for funding the travel arrangements of the authors.
 
 ## References
