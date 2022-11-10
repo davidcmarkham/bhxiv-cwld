@@ -78,27 +78,31 @@ The table below shows an example of some of these terms and how they map to onto
 \hline  
 \textbf{Name} & \textbf{Domain} & \textbf{Description} & \textbf{Mapping} & \textbf{Wikipedia} \\
 \hline  
-\rowcolor{red}
+\rowcolor{gray}
 Silencing & Biology & Inhibiting the expression of a gene & \texttt{GO:0010629} \emph{negative regulation of gene expression} & \url{https://en.wikipedia.org/wiki/Gene_silencing} \\
 \hline  
 \rowcolor{white}
 Transform & Molecular Biology & Transferring genetic material into a cell. Typically, uptake of a plasmid into a cell or population of cells. & \texttt{EFO:0000726} \emph{transfection} & \url{https://en.wikipedia.org/wiki/Transformation\_(genetics)} \\
 \hline  
-\rowcolor{red}
+\rowcolor{gray}
 RBS & Molecular Biology & Sequence that a ribosome recognises and attaches at to initiate translation & \texttt{SO:0000139} \emph{ribsome entry site} & \url{https://en.wikipedia.org/wiki/Ribosome-binding\_site} \\
 \hline  
+\rowcolor{white}
 Restriction Site & Molecular Biology & The recognition sequence of a specific restriction enzyme & \texttt{SO:0001687} \emph{restriction enzyme recognition site} & \url{https://en.wikipedia.org/wiki/Restriction\_site} \\
 \hline  
 \rowcolor{white}
 Digestion & Molecular Biology & Using a restriction enzyme to cut a DNA sequence at a specific location (a restriction site) & \texttt{GO:0015666} \emph{restriction endodeoxyribonuclease activity} & \url{https://en.wikipedia.org/wiki/Restriction\_digest} \\
 \hline  
+\rowcolor{gray}
 Plate \emph{(verb)} & Microbiology & Put cells on solid media for growing & N/A & \url{https://en.wikipedia.org/wiki/Inoculation} \\
 \hline  
+\rowcolor{gray}
 Plate \emph{(noun)} & Microbiology & Labware containing solid growth media & N/A & \url{https://en.wikipedia.org/wiki/Petri\_dish} \\
 \hline  
-\rowcolor{red}
+\rowcolor{white}
 Downregulate & Molecular Biology & Negatively influence gene expression & \texttt{GO:0010629} \emph{negative regulation of gene expression} & \url{https://en.wikipedia.org/wiki/Downregulation\_and\_upregulation} \\
 \hline  
+\rowcolor{gray}
 Upregulate & Molecular Biology & Positively influence gene expression & \texttt{GO:0010628} \emph{positive regulation of gene expression} & \url{https://en.wikipedia.org/wiki/Downregulation\_and\_upregulation} \\
 \hline
 \end{tabular}
