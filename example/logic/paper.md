@@ -195,7 +195,7 @@ This data was collected by searching for strings within the Posts and Comments X
 
 # Availability
 
-The dictionary is available in CSV format at 
+The dictionary is available in CSV format at https://github.com/davidcmarkham/cwld/tree/main.
 
 # Future work
 
