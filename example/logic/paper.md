@@ -3,6 +3,12 @@ title: 'Mapping colloquial wet lab language to ontologies'
 title_short: 'CWLD'
 tags:
   - ontologies
+  - mappings
+  - microbialbiotechnology
+  - bioengineering
+  - syntheticbiology
+  - datamining
+  - based
 authors:
   - name: David Markham
     orcid: 0000-0001-7765-369X
@@ -50,7 +56,7 @@ CSV - Comma Separated Values; FAIR - Findable, Accessible, Interoperable and Reu
 
 The use of ontology terms can make data more FAIR and tractable by machines. However, the highly formalised terminology used by these ontology terms does not always match the colloquial language used by practitioners. This disparity can (a) make it difficult for practitioners to understand the language used by knowledge stored in ontologies; and (b) make it difficult to machine-interpret information written by practitioners to map it to ontologies.
 
-This problem is particularly relevant in the ELIXIR Microbial Biotechnology (MB) community, as although the domain has adopted ontologies and data standards such as SO, SBO, GO, and SBOL for data representation, the tools developed often use ontology terms directly rather than the language used in the wet lab (i.e. by the people using the tools.)
+This problem is particularly relevant in the ELIXIR Microbial Biotechnology (MB) community, as although the domain has adopted ontologies and data standards such as SO [@eilbeck2005sequence], SBO, GO, and SBOL for data representation, the tools developed often use ontology terms directly rather than the language used in the wet lab (i.e. by the people using the tools.)
 
 At the BioHackathon 2022 in Paris, France, we initiated an effort to address this problem by (a) mining the internet for colloquial language used by biologists, (b) constructing a dictionary of this language and its mappings to ontology terms, and (c) constructing a recommendation table of terminology for MB tool developers based on this data.
 
