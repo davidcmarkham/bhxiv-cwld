@@ -21,7 +21,7 @@ event: BioHackathon Europe 2022
 biohackathon_name: "NBDC/DBCLS BioHackathon"
 biohackathon_url:   "http://biohackathon-europe.org/"
 biohackathon_location: "Paris, France, 2022"
-<!-- group: Project 14 -->
+group: Project 14
 # URL to project git repo --- should contain the actual paper.md:
 git_url: https://github.com/biohackrxiv/bhxiv-gen-pdf
 # This is the short authors description that is used at the
