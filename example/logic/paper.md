@@ -68,7 +68,7 @@ An issue we encountered in making the dictionary available is that there is no s
   
 The table below shows an example of some of these terms and how they map to ontology terms.
   
-\begin{tabular}{ |p{2cm}|p{0.7cm}|p{1.6cm}|p{3cm}|p{2.8cm}|p{3cm}| }
+\begin{tabular}{ |p{1cm}|p{0.4cm}|p{1.6cm}|p{3cm}|p{2.8cm}|p{3cm}| }
 \hline  
 \textbf{Name} & \textbf{Type} & \textbf{Domain} & \textbf{Description} & \textbf{Mapping} & \textbf{Wikipedia} \\
 \hline  
