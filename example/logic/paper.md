@@ -66,7 +66,7 @@ An issue we encountered in making the dictionary available is that there is no s
 The table below shows an example of some of these terms and how they map to ontology terms.
 
 | Name | Type | Domain | Description | Ontology Mapping | Wikipedia reference |
-|:----:|:-----:|:------:|:----------------------:|:--------------:|:----------------------------------:|
+|:----------:|:-----:|:--------:|:----------------------:|:--------------:|:---------:|
 | Silencing | verb | Biology | Inhibiting the expression of a gene | GO:0010629 "negative regulation of gene expression" | [Gene_silencing](https://en.wikipedia.org/wiki/Gene_silencing) |
 | Transformation | verb | Molecular Biology | Transferring genetic material into a cell. Typically, uptake of a plasmid into a cell or population of cells. | EFO:0000726 "transfection" | [Transformation_(genetics)](https://en.wikipedia.org/wiki/Transformation_(genetics)) |
 | RBS | noun | Molecular Biology | Sequence that a ribosome recognises and attaches at to initiate translation | SO:0000139 "ribsome entry site" | [Ribosome-binding_site](https://en.wikipedia.org/wiki/Ribosome-binding_site) |
