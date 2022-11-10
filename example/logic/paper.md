@@ -80,31 +80,74 @@ The table below shows an example of some of these terms and how they map to onto
 # Terminology recommendations for Microbial Biotechnology tool developers
 This list is non-exhaustive, but covers a selection of terms that we noticed differ between MB tools.
 
-| Term                | MB tools/ontologies using this term | Frequency on Biology Stack Exchange | Search Term         |
-|:-------------------:|:-----------------------------------:|:-----------------------------------:|:-------------------:|
-| Part | iGEM | 9065 | part + parts |
-| Component           | SBOL, SBOLDesigner, SBOLCanvas      | 2163                                | component           |
-| Module              | SBOL                                | 311                                 | module              |
-| Device              |                                     | 677                                 | device              |
-| System              |                                     | 16098                               | system              |
-| RBS                 |                                     | 548                                 | rbs                 |
-| Ribosome Entry Site | SO                                  | 8                                   | ribosome entry site |
-| Restriction Enzyme Recognition Site | SO | 0 | restriction enzyme recognition site |
-| RERS | SBOLCanvas | 0 | rers|
-| Restriction Site | | 52 | restriction site |
-| Upregulation        |                                     | 216                                 | upreg*              |
-| Downregulation      |                                     | 195                                 | downreg*            |
-| Stimulation | SBO, SBOLCanvas | 1666 | stimulat* |
-| Inhibition | SBO, SBOLCanvas | 3879 | inhibit* |
-| Positive Regulation | GO | 17 | positive reg* + positively reg* |
-| Negative Regulation | GO                                  | 36                                  | negative reg* + negatively reg* |
-| Role | SBOLDesigner | 2068 | role |
-| Function | | 3567 | function |
-| Backbone | SBOLCanvas | 444 | backbone |
-| Vector | | 1608 | vector |
-| Plasmid | | 3026 |
-| Host | | 2507 | host + hosts |
-| Chassis | | 3 | chassis + châssis|
+  
+
+\begin{tabular}{ |p{3cm}|p{3cm}|p{3cm}|  }
+\hline
+\multicolumn{3}{|c|}{Country List} \\
+\hline
+Country Name or Area Name& ISO ALPHA 2 Code &ISO ALPHA 3 \\
+\hline
+American Samoa & AS & ASM \\
+\hline
+Andorra & AD & AND   \\
+\hline
+Angola & AO & AGO \\
+\hline
+\end{tabular}
+
+\begin{tabular}{p|p|p|p}
+\hline  
+Term & MB tools/ontologies using this term & Frequency on Biology Stack Exchange & Search Term
+\hline  
+Part & iGEM & 9065 & part + parts &
+\hline  
+Component           & SBOL, SBOLDesigner, SBOLCanvas      & 2163                                & component           &
+\hline  
+Module              & SBOL                                & 311                                 & module              &
+\hline  
+Device              &                                     & 677                                 & device              &
+\hline  
+System              &                                     & 16098                               & system              &
+\hline  
+RBS                 &                                     & 548                                 & rbs                 &
+\hline  
+Ribosome Entry Site & SO                                  & 8                                   & ribosome entry site &
+\hline  
+Restriction Enzyme Recognition Site & SO & 0 & restriction enzyme recognition site &
+\hline  
+RERS & SBOLCanvas & 0 & rers&
+\hline  
+Restriction Site & & 52 & restriction site &
+\hline  
+Upregulation        &                                     & 216                                 & upreg*              &
+\hline  
+Downregulation      &                                     & 195                                 & downreg*            &
+\hline  
+Stimulation & SBO, SBOLCanvas & 1666 & stimulat* &
+\hline  
+Inhibition & SBO, SBOLCanvas & 3879 & inhibit* &
+\hline  
+Positive Regulation & GO & 17 & positive reg* + positively reg* &
+\hline  
+Negative Regulation & GO                                  & 36                                  & negative reg* + negatively reg* &
+\hline  
+Role & SBOLDesigner & 2068 & role &
+\hline  
+Function & & 3567 & function &
+\hline  
+Backbone & SBOLCanvas & 444 & backbone &
+\hline  
+Vector & & 1608 & vector &
+\hline  
+Plasmid & & 3026 &
+\hline  
+Host & & 2507 & host + hosts &
+\hline  
+Chassis & & 3 & chassis + châssis
+\end{tabular}
+
+  
 
 <!-- ![Table 1 - TEST]
   A table Caption here would be delightful, how do we do this?
@@ -148,19 +191,3 @@ providing an excellent environment to inspire this work
 and for funding the travel arrangements of the authors.
 
 ## References
-
-\begin{tabular}{ |p{3cm}|p{3cm}|p{3cm}|  }
-\hline
-\multicolumn{3}{|c|}{Country List} \\
-\hline
-Country Name or Area Name& ISO ALPHA 2 Code &ISO ALPHA 3 \\
-\hline
-American Samoa & AS & ASM \\
-\hline
-Andorra & AD & AND   \\
-\hline
-Angola & AO & AGO \\
-\hline
-\end{tabular}
-  
-  
