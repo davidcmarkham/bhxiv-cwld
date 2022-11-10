@@ -65,17 +65,32 @@ An issue we encountered in making the dictionary available is that there is no s
   
 The table below shows an example of some of these terms and how they map to ontology terms.
 
-| Name | Type | Domain | Description | Ontology Mapping | Wikipedia reference |
-|:----------:|:-----:|:--------:|:----------------------:|:--------------:|:---------:|
-| Silencing | verb | Biology | Inhibiting the expression of a gene | GO:0010629 "negative regulation of gene expression" | [Gene_silencing](https://en.wikipedia.org/wiki/Gene_silencing) |
-| Transformation | verb | Molecular Biology | Transferring genetic material into a cell. Typically, uptake of a plasmid into a cell or population of cells. | EFO:0000726 "transfection" | [Transformation_(genetics)](https://en.wikipedia.org/wiki/Transformation_(genetics)) |
-| RBS | noun | Molecular Biology | Sequence that a ribosome recognises and attaches at to initiate translation | SO:0000139 "ribsome entry site" | [Ribosome-binding_site](https://en.wikipedia.org/wiki/Ribosome-binding_site) |
-| Restriction Site | noun | Molecular Biology | The recognition sequence of a specific restriction enzyme | SO:0001687 "restriction enzyme recognition site" | [Restriction_site](https://en.wikipedia.org/wiki/Restriction_site) |
-| Digestion | verb | Molecular Biology | Using a restriction enzyme to cut a DNA sequence at a specific location (a restriction site) | GO:0015666 "restriction endodeoxyribonuclease activity" | [Restriction_digest](https://en.wikipedia.org/wiki/Restriction_digest) |
-| Plate | verb | Microbiology | Put cells on solid media for growing | N/A | [Inoculation](https://en.wikipedia.org/wiki/Inoculation) |
-| Plate | noun | Microbiology | Labware containing solid growth media | N/A | [Petri_dish](https://en.wikipedia.org/wiki/Petri_dish) |
-| Downregulate | verb | Molecular Biology | Negatively influence gene expression | GO:0010629 "negative regulation of gene expression" | [Downregulation_and_upregulation](https://en.wikipedia.org/wiki/Downregulation_and_upregulation) |
-| Upregulate | verb | Molecular Biology | Positively influence gene expression | GO:0010628 "positive regulation of gene expression" | [Downregulation_and_upregulation](https://en.wikipedia.org/wiki/Downregulation_and_upregulation) |
+  
+\begin{tabular}{ |p{3cm}|p{3cm}|p{3cm}|p{3cm}| }
+\hline  
+\textbf{Name} & \textbf{Type} & \textbf{Domain} & \textbf{Description} & \textbf{Ontology Mapping} & \textbf{Wikipedia reference} \\
+\hline  
+Silencing & verb & Biology & Inhibiting the expression of a gene & GO:0010629 "negative regulation of gene expression" & [Gene_silencing](https://en.wikipedia.org/wiki/Gene_silencing) \\
+\hline  
+Transformation & verb & Molecular Biology & Transferring genetic material into a cell. Typically, uptake of a plasmid into a cell or population of cells. & EFO:0000726 "transfection" & [Transformation_(genetics)](https://en.wikipedia.org/wiki/Transformation_(genetics)) \\
+\hline  
+RBS & noun & Molecular Biology & Sequence that a ribosome recognises and attaches at to initiate translation & SO:0000139 "ribsome entry site" & [Ribosome-binding_site](https://en.wikipedia.org/wiki/Ribosome-binding_site) \\
+\hline  
+Restriction Site & noun & Molecular Biology & The recognition sequence of a specific restriction enzyme & SO:0001687 "restriction enzyme recognition site" & [Restriction_site](https://en.wikipedia.org/wiki/Restriction_site) \\
+\hline  
+Digestion & verb & Molecular Biology & Using a restriction enzyme to cut a DNA sequence at a specific location (a restriction site) & GO:0015666 "restriction endodeoxyribonuclease activity" & [Restriction_digest](https://en.wikipedia.org/wiki/Restriction_digest) \\
+\hline  
+Plate & verb & Microbiology & Put cells on solid media for growing & N/A & [Inoculation](https://en.wikipedia.org/wiki/Inoculation) \\
+\hline  
+Plate & noun & Microbiology & Labware containing solid growth media & N/A & [Petri_dish](https://en.wikipedia.org/wiki/Petri_dish) \\
+\hline  
+Downregulate & verb & Molecular Biology & Negatively influence gene expression & GO:0010629 "negative regulation of gene expression" \\ [Downregulation_and_upregulation](https://en.wikipedia.org/wiki/Downregulation_and_upregulation) \\
+\hline  
+Upregulate & verb & Molecular Biology & Positively influence gene expression & GO:0010628 "positive regulation of gene expression" \\
+\hline  
+[Downregulation_and_upregulation](https://en.wikipedia.org/wiki/Downregulation_and_upregulation) \\
+\hline
+\end{tabular}
 
 # Terminology recommendations for Microbial Biotechnology tool developers
 This list is non-exhaustive, but covers a selection of terms that we noticed differ between MB tools.
@@ -83,7 +98,7 @@ This list is non-exhaustive, but covers a selection of terms that we noticed dif
 
 \begin{tabular}{ |p{3cm}|p{3cm}|p{3cm}|p{3cm}| }
 \hline  
-Term & MB tools/ontologies using this term & Frequency on Biology Stack Exchange & Search Term \\
+\textbf{Term} & \textbf{MB tools/ontologies using this term} & \textbf{Frequency on Biology Stack Exchange} & \textbf{Search Term} \\
 \hline  
 Part & iGEM & 9065 & part + parts \\
 \hline  
