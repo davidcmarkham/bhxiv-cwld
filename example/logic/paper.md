@@ -149,7 +149,8 @@ and for funding the travel arrangements of the authors.
 
 ## References
 
-{\rowcolors{3}{green!80!yellow!50}{green!70!yellow!40}
+% {\rowcolors{3}{green!80!yellow!50}{green!70!yellow!40}
+  
 \begin{tabular}{ |p{3cm}|p{3cm}|p{3cm}|  }
 \hline
 \multicolumn{3}{|c|}{Country List} \\
