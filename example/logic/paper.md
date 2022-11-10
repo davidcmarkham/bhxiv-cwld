@@ -55,6 +55,8 @@ While initially developed to serve the MB community, we hope that the dictionary
 
 # Using Stack Exchange to gather colloquial domain language
 
+Biology Stack Exchange is a forum where colloquial language is used to ask and answer questions throughout the domain. We took the data available at <data dump location::date> and extracted the words in the posts and comments to count up the frequency in which each word is used. To remove commonly used words and words that are non-specific to biology, we performed the same exercise on Meta Stack Exchange and subtracted the most commonly used words on the Meta dataset from the Biology dataset. This resulted in a set of words that were commonly used on the Biology Stack Exchange and the frequency in which each word appeared. We used this to generate a wordcloud.
+
 ![Most commonly used words on Biology Stack Exchange](./wordcloud.png)
 
 # Creating a dictionary of colloquial wet lab terminology
