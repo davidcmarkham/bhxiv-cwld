@@ -155,12 +155,10 @@ and for funding the travel arrangements of the authors.
 \hline
 Country Name or Area Name& ISO ALPHA 2 Code &ISO ALPHA 3 \\
 \hline
-Afghanistan & AF &AFG \\
-Aland Islands & AX   & ALA \\
-Albania &AL & ALB \\
-Algeria    &DZ & DZA \\
 American Samoa & AS & ASM \\
+\hline
 Andorra & AD & AND   \\
+\hline
 Angola & AO & AGO \\
 \hline
 \end{tabular}
