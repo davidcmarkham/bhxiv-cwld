@@ -43,6 +43,8 @@ pasting above link (or yours) in
 
 -->
 
+\newgeometry{left=3cm,bottom=0.1cm}
+
 # Introduction
 
 The use of ontology terms can make data more FAIR and tractable by machines. However, the highly formalised terminology used by these ontology terms does not always match the colloquial language used by practitioners. This disparity can (a) make it difficult for practitioners to understand the language used by knowledge stored in ontologies; and (b) make it difficult to machine-interpret information written by practitioners to map it to ontologies.
