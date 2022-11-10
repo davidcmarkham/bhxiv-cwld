@@ -74,7 +74,24 @@ Biology Stack Exchange is a forum where colloquial language is used to ask and a
 
 ## Creating a dictionary of colloquial wet lab terminology
  
-We used a combination of information gathered by talking to wet lab biologists at the BioHackathon, and wordclouds generated from the Biology Stack Exchange dataset, to generate a dictionary of colloquial wet lab biology language, which we have named CWLD (pronounced \emph{quilled}): Colloquial Wet Lab Dictionary. By the end of the BioHackathon, CWLD had 104 terms. As an example, the table below shows a small example excerpt of these terms and how they map to ontology terms.
+We used a combination of information gathered by talking to wet lab biologists at the BioHackathon, and wordclouds generated from the Biology Stack Exchange dataset, to generate a dictionary of colloquial wet lab biology language, which we have named CWLD (pronounced \emph{quilled}): Colloquial Wet Lab Dictionary.
+
+One of the important considerations was that the same term can have different meanings depending on the domain. For example, _transformation_ to a microbiologist means transferring genetic material into a cell, while for a human biologist it means converting a cell to an immortal phenotype that divides infinitely. We therefore defined an initial set of domains we were interested in to categorise the terms. Where possible, we also mapped these domains to the EDAM ontology.
+
+\begin{figure}
+\begin{tabular}{ |p{3cm}|p{3cm}| 
+\hline
+\rowcolor{gray}
+\textbf{Domain} & \textbf{Mapping} \\
+Microbiology & \texttt{http://edamontology.org/topic_3301} \\
+Molecular Biology & \texttt{http://edamontology.org/topic_3047} \\
+Plant Biology & \texttt{http://edamontology.org/topic_0780} \\
+Biochemistry & \texttt{http://edamontology.org/topic_3292} \\
+Cell Biology & \texttt{http://edamontology.org/topic_2229} \\
+Synthetic Biology & \texttt{http://edamontology.org/topic_3895} \\
+\end{tabular}
+
+By the end of the BioHackathon, CWLD had 104 terms. As an example, the table below shows a small example excerpt of these terms and how they map to ontology terms.
   
   
 \begin{figure}
