@@ -65,9 +65,6 @@ An issue we encountered in making the dictionary available is that there is no s
   
 The table below shows an example of some of these terms and how they map to ontology terms.\begin{
   
-
-\begin{figure}[h]
-\begin{adjustwidth}{-1in}
 \begin{tabular}{ |p{3cm}|p{1cm}|p{3cm}|p{3cm}|p{3cm}|p{3cm}| }
 \hline  
 \textbf{Name} & \textbf{Type} & \textbf{Domain} & \textbf{Description} & \textbf{Ontology Mapping} & \textbf{Wikipedia reference} \\
@@ -93,7 +90,6 @@ Upregulate & verb & Molecular Biology & Positively influence gene expression & \
 \url{https://en.wikipedia.org/wiki/Downregulation\_and\_upregulation} \\
 \hline
 \end{tabular}
-\end{figure}
   
 # Terminology recommendations for Microbial Biotechnology tool developers
 This list is non-exhaustive, but covers a selection of terms that we noticed differ between MB tools.
