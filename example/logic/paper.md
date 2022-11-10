@@ -47,9 +47,9 @@ pasting above link (or yours) in
 
 The use of ontology terms can make data more FAIR and tractable by machines. However, the highly formalised terminology used by these ontology terms does not always match the colloquial language used by practitioners. This disparity can (a) make it difficult for practitioners to understand the language used by knowledge stored in ontologies; and (b) make it difficult to machine-interpret information written by practitioners to map it to ontologies.
 
-This problem is particularly relevant in the ELIXIR Microbial Biotechnology community, as although the domain has adopted ontologies and data standards such as SO, SBO, GO, and SBOL for data representation, the tools developed often use ontology terms directly rather than the language used in the wet lab (i.e. by the people using the tools.)
+This problem is particularly relevant in the ELIXIR Microbial Biotechnology (MB) community, as although the domain has adopted ontologies and data standards such as SO, SBO, GO, and SBOL for data representation, the tools developed often use ontology terms directly rather than the language used in the wet lab (i.e. by the people using the tools.)
 
-At the BioHackathon 2022 in Paris, France, we initiated an effort to address this problem by (a) mining the internet for colloquial language used by biologists, (b) constructing a dictionary of this language and its mappings to ontology terms, and (3) constructing a recommendation table of terminology for MB tool developers based on this data.
+At the BioHackathon 2022 in Paris, France, we initiated an effort to address this problem by (a) mining the internet for colloquial language used by biologists, (b) constructing a dictionary of this language and its mappings to ontology terms, and (c) constructing a recommendation table of terminology for MB tool developers based on this data.
 
 While initially developed to serve the MB community, we hope that the dictionary will serve as a helpful resource for anyone hoping to map from colloquial wet lab language to ontology terms for e.g. text mining applications.
 
@@ -65,6 +65,7 @@ An issue we encountered in making the dictionary available is that there is no s
 # Terminology recommendations for Microbial Biotechnology tool developers
 This list is non-exhaustive, but covers a selection of terms that we noticed differ between MB tools.
 
+<!--
 | Term                | MB tools/ontologies using this term | Frequency on Biology Stack Exchange |
 |---------------------|-------------------------------------|-------------------------------------|
 | Component           | SBOL, SBOLDesigner, SBOLCanvas      | 2163                                |
@@ -75,7 +76,7 @@ This list is non-exhaustive, but covers a selection of terms that we noticed dif
 | Ribosome Entry Site | SO                                  | 8                                   |
 | Upregulation        |                                     | 79                                  |
 | Downregulation      |                                     | 91                                  |
-
+-->
 
 # Results
 
