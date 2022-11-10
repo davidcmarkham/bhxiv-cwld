@@ -66,16 +66,32 @@ An issue we encountered in making the dictionary available is that there is no s
 # Terminology recommendations for Microbial Biotechnology tool developers
 This list is non-exhaustive, but covers a selection of terms that we noticed differ between MB tools.
 
-| Term                | MB tools/ontologies using this term | Frequency on Biology Stack Exchange |
-|:-------------------:|:-----------------------------------:|:-----------------------------------:|
-| Component           | SBOL, SBOLDesigner, SBOLCanvas      | 2163                                |
-| Module              | SBOL                                | 311                                 |
-| Device              |                                     | 677                                 |
-| System              |                                     | 16098                               |
-| RBS                 |                                     | 548                                 |
-| Ribosome Entry Site | SO                                  | 8                                   |
-| Upregulation        |                                     | 79                                  |
-| Downregulation      |                                     | 91                                  |
+| Term                | MB tools/ontologies using this term | Frequency on Biology Stack Exchange | Search Term         |
+|:-------------------:|:-----------------------------------:|:-----------------------------------:|:-------------------:|
+| Part | iGEM | 9065 | part + parts |
+| Component           | SBOL, SBOLDesigner, SBOLCanvas      | 2163                                | component           |
+| Module              | SBOL                                | 311                                 | module              |
+| Device              |                                     | 677                                 | device              |
+| System              |                                     | 16098                               | system              |
+| RBS                 |                                     | 548                                 | rbs                 |
+| Ribosome Entry Site | SO                                  | 8                                   | ribosome entry site |
+| Restriction Enzyme Recognition Site | SO | 0 | restriction enzyme recognition site |
+| RERS | SBOLCanvas | 0 | rers|
+| Restriction Site | | 52 | restriction site |
+| Upregulation        |                                     | 216                                 | upreg*              |
+| Downregulation      |                                     | 195                                 | downreg*            |
+| Stimulation | SBO, SBOLCanvas | 1666 | stimulat* |
+| Inhibition | SBO, SBOLCanvas | 3879 | inhibit* |
+| Positive Regulation | GO | 17 | positive reg* + positively reg* |
+| Negative Regulation | GO                                  | 36                                  | negative reg* + negatively reg* |
+| Role | SBOLDesigner | 2068 | role |
+| Function | | 3567 | function |
+
+<!-- ![Table 1 - TEST]
+  A table Caption here would be delightful, how do we do this?
+-->
+
+This data was collected by searching for strings within the Posts and Comments XML files (ignoring case sensitivity). There are issues with this methodology due to variations or typos in the way that this language may be used. Additionally, if punctuation was used before or after the word, it may not be included in the result due to the insertion of spaces in our search terms to account for prefixes and suffixes. This data is also prone to a lack of context. For example, the term "system" may be used in Engineering Biology to mean a genetic circuit but "system" is commonly used for other meanings. In future, a more robust approach could be used but this data provides an initial investigation into the use of some choice terminology.
 
 # Results
 
