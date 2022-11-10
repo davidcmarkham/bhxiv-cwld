@@ -76,6 +76,7 @@ The table below shows an example of some of these terms and how they map to onto
   
 \begin{tabular}{ |p{1.8cm}|p{1.62cm}|p{3cm}|p{2.4cm}|p{3cm}| }
 \hline  
+\rowcolor{gray}
 \textbf{Name} & \textbf{Domain} & \textbf{Description} & \textbf{Mapping} & \textbf{Wikipedia} \\
 \hline  
 Silencing & Biology & Inhibiting the expression of a gene & \texttt{GO:0010629} \emph{negative regulation of gene expression} & \url{https://en.wikipedia.org/wiki/Gene_silencing} \\
@@ -104,6 +105,7 @@ This list is non-exhaustive, but covers a selection of terms that we noticed dif
 
 \begin{tabular}{ |p{3cm}|p{3cm}|p{3cm}|p{3cm}| }
 \hline  
+\rowcolor{gray}
 \textbf{Term} & \textbf{MB tools/ontologies using this term} & \textbf{Frequency on Biology Stack Exchange} & \textbf{Search Term} \\
 \hline  
 Part & iGEM & 9065 & part + parts \\
