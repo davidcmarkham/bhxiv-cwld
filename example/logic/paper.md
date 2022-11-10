@@ -43,8 +43,6 @@ pasting above link (or yours) in
 
 -->
 
-\newgeometry{left=5cm,bottom=1cm}
-
 # Introduction
 
 The use of ontology terms can make data more FAIR and tractable by machines. However, the highly formalised terminology used by these ontology terms does not always match the colloquial language used by practitioners. This disparity can (a) make it difficult for practitioners to understand the language used by knowledge stored in ontologies; and (b) make it difficult to machine-interpret information written by practitioners to map it to ontologies.
@@ -67,6 +65,7 @@ An issue we encountered in making the dictionary available is that there is no s
   
 The table below shows an example of some of these terms and how they map to ontology terms.\begin{
   
+\newgeometry{left=0cm,bottom=1cm}
 \begin{tabular}{ |p{3cm}|p{1cm}|p{3cm}|p{3cm}|p{3cm}|p{3cm}| }
 \hline  
 \textbf{Name} & \textbf{Type} & \textbf{Domain} & \textbf{Description} & \textbf{Ontology Mapping} & \textbf{Wikipedia reference} \\
@@ -92,6 +91,7 @@ Upregulate & verb & Molecular Biology & Positively influence gene expression & \
 \url{https://en.wikipedia.org/wiki/Downregulation\_and\_upregulation} \\
 \hline
 \end{tabular}
+\restoregeometry
   
 # Terminology recommendations for Microbial Biotechnology tool developers
 This list is non-exhaustive, but covers a selection of terms that we noticed differ between MB tools.
