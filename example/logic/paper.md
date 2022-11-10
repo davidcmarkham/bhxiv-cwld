@@ -49,8 +49,8 @@ pasting above link (or yours) in
 
 -->
 
-## List of Abbreviations
-CSV - Comma Separated Values; FAIR - Findable, Accessible, Interoperable and Reusable; GO - Gene Ontology; MB - Microbial Biotechnology; RBS - Ribosome Binding Site; SBO - Systems Biology Ontology; SBOL - Synthetic Biology Open Language; SE - Stack Exchange; SO - Sequence Ontology; SSSOM - Super Simple Standard for Ontology Mappings; XML - eXtensible Markup Language
+### List of Abbreviations
+CSV - Comma Separated Values; EDAM - EMBRACE Data And Methods; FAIR - Findable, Accessible, Interoperable and Reusable; GO - Gene Ontology; MB - Microbial Biotechnology; RBS - Ribosome Binding Site; SBO - Systems Biology Ontology; SBOL - Synthetic Biology Open Language; SE - Stack Exchange; SO - Sequence Ontology; SRAO - Subject Resource Application Ontology; SSSOM - Super Simple Standard for Ontology Mappings; XML - eXtensible Markup Language
 
 # Introduction
 
@@ -76,7 +76,7 @@ Biology Stack Exchange is a forum where colloquial language is used to ask and a
  
 We used a combination of information gathered by talking to wet lab biologists at the BioHackathon, and wordclouds generated from the Biology Stack Exchange dataset, to generate a dictionary of colloquial wet lab biology language, which we have named CWLD (pronounced \emph{quilled}): Colloquial Wet Lab Dictionary.
 
-One of the important considerations was that the same term can have different meanings depending on the domain. For example, _transformation_ to a microbiologist means transferring genetic material into a cell, while for a human biologist it means converting a cell to an immortal phenotype that divides infinitely. We therefore defined an initial set of domains we were interested in to categorise the terms. We also mapped these domains to the EDAM ontology and the FAIRsharing subject ontology (SRAO), where possible.
+One of the important considerations was that the same term can have different meanings depending on the domain. For example, _transformation_ to a microbiologist means transferring genetic material into a cell, while for a human biologist it means converting a cell to an immortal phenotype that divides infinitely. We therefore defined an initial set of domains we were interested in to categorise the terms. We also mapped these domains to the EDAM (EMBRACE Data and Methods) ontology [@ison2013edam] and the FAIRsharing Subject Resource Application Ontology (SRAO) [@lister2019mapping], where possible.
 
 \begin{figure}
 \begin{tabular}{ |p{3cm}|p{3cm}|p{3cm}| } 
