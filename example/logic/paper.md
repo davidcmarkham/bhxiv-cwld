@@ -77,7 +77,7 @@ RBS & noun & Molecular Biology & Sequence that a ribosome recognises and attache
 \hline  
 Restriction Site & noun & Molecular Biology & The recognition sequence of a specific restriction enzyme & \texttt{SO:0001687} \emph{restriction enzyme recognition site} & \url{https://en.wikipedia.org/wiki/Restriction\_site} \\
 \hline  
-Digestion & verb & Molecular Biology & Using a restriction enzyme to cut a DNA sequence at a specific location (a restriction site) & \texttt{GO:0015666} \\ \emph{restriction endodeoxyribonuclease activity} & \url{https://en.wikipedia.org/wiki/Restriction\_digest} \\
+Digestion & verb & Molecular Biology & Using a restriction enzyme to cut a DNA sequence at a specific location (a restriction site) & \texttt{GO:0015666} \emph{restriction endodeoxyribonuclease activity} & \url{https://en.wikipedia.org/wiki/Restriction\_digest} \\
 \hline  
 Plate & verb & Microbiology & Put cells on solid media for growing & N/A & \url{https://en.wikipedia.org/wiki/Inoculation} \\
 \hline  
