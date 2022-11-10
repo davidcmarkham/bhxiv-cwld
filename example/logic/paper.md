@@ -114,6 +114,7 @@ One issue we encountered in making the dictionary available is that there is no 
 Using the Stack Exchange dataset, we also analysed the popularity of terms used in MB tools and resources to establish which terms are more commonly used. This list is non-exhaustive, but covers a selection of terms that we noticed differ between MB tools such as SBOLDesigner [@zhang2017sboldesigner] and SBOLCanvas [@terry2021sbolcanvas].
 
 
+\begin{figure}
 \begin{tabular}{ |p{3cm}|p{3cm}|p{3cm}|p{3cm}| }
 \hline  
 \rowcolor{gray}
@@ -188,6 +189,9 @@ Host & & 2507 & host + hosts \\
 Chassis & & 3 & chassis + châssis \\
 \hline
 \end{tabular}
+\caption{A selection of terms used in MB that differ between tools, and their respective frequency in the Biology Stack Exchange dataset.}
+\end{figure}
+
 
 <!-- ![Table 1 - TEST]
   A table Caption here would be delightful, how do we do this?
