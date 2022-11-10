@@ -79,7 +79,7 @@ We used a combination of information gathered by talking to wet lab biologists a
 One of the important considerations was that the same term can have different meanings depending on the domain. For example, _transformation_ to a microbiologist means transferring genetic material into a cell, while for a human biologist it means converting a cell to an immortal phenotype that divides infinitely. We therefore defined an initial set of domains we were interested in to categorise the terms. We also mapped these domains to the EDAM ontology.
 
 \begin{figure}
-\begin{tabular}{ |p{3cm}|p{3cm}| 
+\begin{tabular}{ |p{3cm}|p{3cm}| }
 \hline
 \rowcolor{gray}
 \textbf{Domain} & \textbf{Mapping} \\
