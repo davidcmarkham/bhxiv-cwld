@@ -85,9 +85,7 @@ Plate & noun & Microbiology & Labware containing solid growth media & N/A & \url
 \hline  
 Downregulate & verb & Molecular Biology & Negatively influence gene expression & \texttt{GO:0010629} \emph{negative regulation of gene expression} & \url{https://en.wikipedia.org/wiki/Downregulation\_and\_upregulation} \\
 \hline  
-Upregulate & verb & Molecular Biology & Positively influence gene expression & \texttt{GO:0010628} \emph{positive regulation of gene expression} &
-\hline  
-\url{https://en.wikipedia.org/wiki/Downregulation\_and\_upregulation} \\
+Upregulate & verb & Molecular Biology & Positively influence gene expression & \texttt{GO:0010628} \emph{positive regulation of gene expression} & \url{https://en.wikipedia.org/wiki/Downregulation\_and\_upregulation} \\
 \hline
 \end{tabular}
   
