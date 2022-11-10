@@ -78,31 +78,22 @@ The table below shows an example of some of these terms and how they map to onto
 \hline  
 \textbf{Name} & \textbf{Domain} & \textbf{Description} & \textbf{Mapping} & \textbf{Wikipedia} \\
 \hline  
-\rowcolor{gray}
 Silencing & Biology & Inhibiting the expression of a gene & \texttt{GO:0010629} \emph{negative regulation of gene expression} & \url{https://en.wikipedia.org/wiki/Gene_silencing} \\
 \hline  
-\rowcolor{white}
 Transform & Molecular Biology & Transferring genetic material into a cell. Typically, uptake of a plasmid into a cell or population of cells. & \texttt{EFO:0000726} \emph{transfection} & \url{https://en.wikipedia.org/wiki/Transformation\_(genetics)} \\
 \hline  
-\rowcolor{gray}
 RBS & Molecular Biology & Sequence that a ribosome recognises and attaches at to initiate translation & \texttt{SO:0000139} \emph{ribsome entry site} & \url{https://en.wikipedia.org/wiki/Ribosome-binding\_site} \\
 \hline  
-\rowcolor{white}
 Restriction Site & Molecular Biology & The recognition sequence of a specific restriction enzyme & \texttt{SO:0001687} \emph{restriction enzyme recognition site} & \url{https://en.wikipedia.org/wiki/Restriction\_site} \\
 \hline  
-\rowcolor{white}
 Digestion & Molecular Biology & Using a restriction enzyme to cut a DNA sequence at a specific location (a restriction site) & \texttt{GO:0015666} \emph{restriction endodeoxyribonuclease activity} & \url{https://en.wikipedia.org/wiki/Restriction\_digest} \\
 \hline  
-\rowcolor{gray}
 Plate \emph{(verb)} & Microbiology & Put cells on solid media for growing & N/A & \url{https://en.wikipedia.org/wiki/Inoculation} \\
 \hline  
-\rowcolor{gray}
 Plate \emph{(noun)} & Microbiology & Labware containing solid growth media & N/A & \url{https://en.wikipedia.org/wiki/Petri\_dish} \\
 \hline  
-\rowcolor{white}
 Downregulate & Molecular Biology & Negatively influence gene expression & \texttt{GO:0010629} \emph{negative regulation of gene expression} & \url{https://en.wikipedia.org/wiki/Downregulation\_and\_upregulation} \\
 \hline  
-\rowcolor{gray}
 Upregulate & Molecular Biology & Positively influence gene expression & \texttt{GO:0010628} \emph{positive regulation of gene expression} & \url{https://en.wikipedia.org/wiki/Downregulation\_and\_upregulation} \\
 \hline
 \end{tabular}
@@ -117,48 +108,70 @@ This list is non-exhaustive, but covers a selection of terms that we noticed dif
 \hline  
 Part & iGEM & 9065 & part + parts \\
 \hline  
+\rowcolor{lightgray}
 Component           & SBOL, SBOLDesigner, SBOLCanvas      & 2163                                & component           \\
 \hline  
+\rowcolor{lightgray}
 Module              & SBOL                                & 311                                 & module              \\
 \hline  
+\rowcolor{lightgray}
 Device              &                                     & 677                                 & device              \\
 \hline  
+\rowcolor{lightgray}
 System              &                                     & 16098                               & system              \\
 \hline  
+\rowcolor{white}
 RBS                 &                                     & 548                                 & rbs                 \\
 \hline  
+\rowcolor{white}
 Ribosome Entry Site & SO                                  & 8                                   & ribosome entry site \\
 \hline  
+\rowcolor{lightgray}
 Restriction Enzyme Recognition Site & SO & 0 & restriction enzyme recognition site \\
 \hline  
+\rowcolor{lightgray}
 RERS & SBOLCanvas & 0 & rers \\
 \hline  
+\rowcolor{lightgray}
 Restriction Site & & 52 & restriction site \\
 \hline  
+\rowcolor{white}
 Upregulation        &                                     & 216                                 & upreg*              \\
 \hline  
-Downregulation      &                                     & 195                                 & downreg*            \\
-\hline  
+\rowcolor{white}
 Stimulation & SBO, SBOLCanvas & 1666 & stimulat* \\
 \hline  
-Inhibition & SBO, SBOLCanvas & 3879 & inhibit* \\
-\hline  
+\rowcolor{white}
 Positive Regulation & GO & 17 & positive reg* + positively reg* \\
 \hline  
+\rowcolor{lightgray}
+Downregulation      &                                     & 195                                 & downreg*            \\
+\hline  
+\rowcolor{lightgray}
+Inhibition & SBO, SBOLCanvas & 3879 & inhibit* \\
+\hline  
+\rowcolor{lightgray}
 Negative Regulation & GO                                  & 36                                  & negative reg* + negatively reg* \\
 \hline  
+\rowcolor{white}
 Role & SBOLDesigner & 2068 & role \\
 \hline  
+\rowcolor{white}
 Function & & 3567 & function \\
 \hline  
+\rowcolor{lightgray}
 Backbone & SBOLCanvas & 444 & backbone \\
 \hline  
+\rowcolor{lightgray}
 Vector & & 1608 & vector \\
 \hline  
-Plasmid & & 3026 \\
+\rowcolor{lightgray}
+Plasmid & & 3026 & plasmid \\
 \hline  
+\rowcolor{white}
 Host & & 2507 & host + hosts \\
 \hline  
+\rowcolor{white}
 Chassis & & 3 & chassis + châssis \\
 \hline
 \end{tabular}
