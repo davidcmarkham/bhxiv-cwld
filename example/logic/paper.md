@@ -90,10 +90,8 @@ This list is non-exhaustive, but covers a selection of terms that we noticed dif
 
 The following tasks were accomplished as part of the BioHackathon:
 
-\begin{enumerate}
-\item Initial Dictionary of Terms in CSV fomrat
-\item Analysis of commonly used words on Stack Exchange
-\end{enumerate}
+- Initial Dictionary of Terms in CSV fomrat
+- Analysis of commonly used words on Stack Exchange
 
 
 # Availability
