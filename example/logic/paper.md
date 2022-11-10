@@ -69,7 +69,7 @@ The table below shows an example of some of these terms and how they map to onto
 \noindent
 \makebox[\textwidth]{
   \centering
-\begin{tabular}{ |p{3cm}|p{3cm}|p{3cm}|p{3cm}|p{3cm}|p{3cm}| }
+\begin{tabular}{ |p{3cm}|p{1cm}|p{3cm}|p{3cm}|p{3cm}|p{3cm}| }
 \hline  
 \textbf{Name} & \textbf{Type} & \textbf{Domain} & \textbf{Description} & \textbf{Ontology Mapping} & \textbf{Wikipedia reference} \\
 \hline  
@@ -100,7 +100,7 @@ Upregulate & verb & Molecular Biology & Positively influence gene expression & \
 This list is non-exhaustive, but covers a selection of terms that we noticed differ between MB tools.
 
 
-\begin{tabular}{ |p{3cm}|p{1cm}|p{3cm}|p{3cm}| }
+\begin{tabular}{ |p{3cm}|p{3cm}|p{3cm}|p{3cm}| }
 \hline  
 \textbf{Term} & \textbf{MB tools/ontologies using this term} & \textbf{Frequency on Biology Stack Exchange} & \textbf{Search Term} \\
 \hline  
