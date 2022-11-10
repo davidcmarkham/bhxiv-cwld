@@ -86,6 +86,11 @@ This list is non-exhaustive, but covers a selection of terms that we noticed dif
 | Negative Regulation | GO                                  | 36                                  | negative reg* + negatively reg* |
 | Role | SBOLDesigner | 2068 | role |
 | Function | | 3567 | function |
+| Backbone | SBOLCanvas | 444 | backbone |
+| Vector | | 1608 | vector |
+| Plasmid | | 3026 |
+| Host | | 2507 | host + hosts |
+| Chassis | | 3 | chassis + châssis|
 
 <!-- ![Table 1 - TEST]
   A table Caption here would be delightful, how do we do this?
