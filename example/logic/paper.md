@@ -18,20 +18,30 @@ affiliations:
 date: 12 November 2022
 cito-bibliography: paper.bib
 event: BioHackathon Europe 2022
-biohackathon_name: "BioHackathon Europe 2022"
+biohackathon_name: "NBDC/DBCLS BioHackathon"
 biohackathon_url:   "http://biohackathon-europe.org/"
 biohackathon_location: "Paris, France, 2022"
 group: Project 14
 # URL to project git repo --- should contain the actual paper.md:
-git_url: https://github.com/davidcmarkham/bhxiv-cwld
+git_url: https://github.com/biohackrxiv/bhxiv-gen-pdf
 # This is the short authors description that is used at the
 # bottom of the generated paper (typically the first two authors):
 authors_short: David Markham & James McLaughlin
 
 ---
 
-# List of Abbreviations
-CSV - Comma Separated Values; FAIR - Findable, Accessible, Interoperable and Reusable; GO - Gene Ontology; MB - Microbial Biotechnology; RBS - Ribosome Binding Site; SBO - Systems Biology Ontology; SBOL - Synthetic Biology Open Language; SE - Stack Exchange; SO - Sequence Ontology; SSSOM - Super Simple Standard for Ontology Mappings; XML - Extensible Markup Language
+<!--
+
+The paper.md, bibtex and figure file can be found in this repo:
+
+  https://github.com/journal-of-research-objects/Example-BioHackrXiv-Paper
+
+To modify, please clone the repo. You can generate PDF of the paper by
+pasting above link (or yours) in
+
+  http://biohackrxiv.genenetwork.org/
+
+-->
 
 # Introduction
 
@@ -45,7 +55,7 @@ While initially developed to serve the MB community, we hope that the dictionary
 
 # Using Stack Exchange to gather colloquial domain language
 
-Biology Stack Exchange is a forum where colloquial language is used to ask and answer questions throughout the domain. We took the data available at [archive.org](https://archive.org/download/stackexchange) and extracted the words in the posts and comments to count up the frequency in which each word is used. To remove commonly used words and words that are non-specific to biology, we performed the same exercise on Meta Stack Exchange and subtracted the most commonly used words on the Meta dataset from the Biology dataset. This resulted in a set of words that were commonly used on the Biology Stack Exchange and the frequency in which each word appeared. We used this to generate a wordcloud.
+Biology Stack Exchange is a forum where colloquial language is used to ask and answer questions throughout the domain. We took the data available at <data dump location::date> and extracted the words in the posts and comments to count up the frequency in which each word is used. To remove commonly used words and words that are non-specific to biology, we performed the same exercise on Meta Stack Exchange and subtracted the most commonly used words on the Meta dataset from the Biology dataset. This resulted in a set of words that were commonly used on the Biology Stack Exchange and the frequency in which each word appeared. We used this to generate a wordcloud.
 
 ![Most commonly used words on Biology Stack Exchange](./wordcloud.png)
 
@@ -53,35 +63,38 @@ Biology Stack Exchange is a forum where colloquial language is used to ask and a
 
 An issue we encountered in making the dictionary available is that there is no standard/FAIR data format to publish string to term mappings. The SSSOM (Super Simple Standard for Ontology Mappings) supports term to term mappings, but not string to term. We have discussed with the SSSOM developers about implementing support for this, and are helping with a pull request to add it to the standard. We will then hopefully be able to publish the dictionary in the future using SSSOM.
   
-The table below shows an example of some of these terms and how they map to ontology terms.
-
+The table below shows an example of some of these terms and how they map to ontology terms.\begin{
   
-\begin{tabular}{ |p{3cm}|p{3cm}|p{3cm}|p{3cm}|p{3cm}|p{3cm}| }
+
+\begin{figure}[h]
+\begin{adjustwidth}{-1in}
+\begin{tabular}{ |p{3cm}|p{1cm}|p{3cm}|p{3cm}|p{3cm}|p{3cm}| }
 \hline  
 \textbf{Name} & \textbf{Type} & \textbf{Domain} & \textbf{Description} & \textbf{Ontology Mapping} & \textbf{Wikipedia reference} \\
 \hline  
 Silencing & verb & Biology & Inhibiting the expression of a gene & \texttt{GO:0010629} \emph{negative regulation of gene expression} & \url{https://en.wikipedia.org/wiki/Gene_silencing} \\
 \hline  
-Transformation & verb & Molecular Biology & Transferring genetic material into a cell. Typically, uptake of a plasmid into a cell or population of cells. & \texttt{EFO:0000726} \emph{transfection} & \url{https://en.wikipedia.org/wiki/Transformation_(genetics)} \\
+Transformation & verb & Molecular Biology & Transferring genetic material into a cell. Typically, uptake of a plasmid into a cell or population of cells. & \texttt{EFO:0000726} \emph{transfection} & \url{https://en.wikipedia.org/wiki/Transformation\_(genetics)} \\
 \hline  
-RBS & noun & Molecular Biology & Sequence that a ribosome recognises and attaches at to initiate translation & \texttt{SO:0000139} \emph{ribsome entry site} & \url{https://en.wikipedia.org/wiki/Ribosome-binding_site} \\
+RBS & noun & Molecular Biology & Sequence that a ribosome recognises and attaches at to initiate translation & \texttt{SO:0000139} \emph{ribsome entry site} & \url{https://en.wikipedia.org/wiki/Ribosome-binding\_site} \\
 \hline  
-Restriction Site & noun & Molecular Biology & The recognition sequence of a specific restriction enzyme & \texttt{SO:0001687} \emph{restriction enzyme recognition site} & \url{https://en.wikipedia.org/wiki/Restriction_site} \\
+Restriction Site & noun & Molecular Biology & The recognition sequence of a specific restriction enzyme & \texttt{SO:0001687} \emph{restriction enzyme recognition site} & \url{https://en.wikipedia.org/wiki/Restriction\_site} \\
 \hline  
-Digestion & verb & Molecular Biology & Using a restriction enzyme to cut a DNA sequence at a specific location (a restriction site) & \texttt{GO:0015666} \emph{restriction endodeoxyribonuclease activity} & \url{https://en.wikipedia.org/wiki/Restriction_digest} \\
+Digestion & verb & Molecular Biology & Using a restriction enzyme to cut a DNA sequence at a specific location (a restriction site) & \texttt{GO:0015666} \emph{restriction endodeoxyribonuclease activity} & \url{https://en.wikipedia.org/wiki/Restriction\_digest} \\
 \hline  
 Plate & verb & Microbiology & Put cells on solid media for growing & N/A & \url{https://en.wikipedia.org/wiki/Inoculation} \\
 \hline  
-Plate & noun & Microbiology & Labware containing solid growth media & N/A & \url{https://en.wikipedia.org/wiki/Petri_dish} \\
+Plate & noun & Microbiology & Labware containing solid growth media & N/A & \url{https://en.wikipedia.org/wiki/Petri\_dish} \\
 \hline  
-Downregulate & verb & Molecular Biology & Negatively influence gene expression & \texttt{GO:0010629} \emph{negative regulation of gene expression} \\ [Downregulation_and_upregulation](https://en.wikipedia.org/wiki/Downregulation_and_upregulation) \\
+Downregulate & verb & Molecular Biology & Negatively influence gene expression & \texttt{GO:0010629} \emph{negative regulation of gene expression} \\ \url{https://en.wikipedia.org/wiki/Downregulation\_and\_upregulation} \\
 \hline  
 Upregulate & verb & Molecular Biology & Positively influence gene expression & \texttt{GO:0010628} \emph{positive regulation of gene expression} \\
 \hline  
-\url{https://en.wikipedia.org/wiki/Downregulation_and_upregulation} \\
+\url{https://en.wikipedia.org/wiki/Downregulation\_and\_upregulation} \\
 \hline
 \end{tabular}
-
+\end{figure}
+  
 # Terminology recommendations for Microbial Biotechnology tool developers
 This list is non-exhaustive, but covers a selection of terms that we noticed differ between MB tools.
 
@@ -177,7 +190,7 @@ We intend to publish the dictionary using SSSOM, once the ability to map strings
 
 ## Acknowledgements
 
-With thanks to the organisers of BioHackathon Europe for
+With thanks to the oranisers of BioHackathon Europe for
 providing an excellent environment to inspire this work
 and for funding the travel arrangements of the authors.
 
