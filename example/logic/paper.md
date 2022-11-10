@@ -102,47 +102,47 @@ Term & MB tools/ontologies using this term & Frequency on Biology Stack Exchange
 \hline  
 Part & iGEM & 9065 & part + parts &
 \hline  
-Component           & SBOL, SBOLDesigner, SBOLCanvas      & 2163                                & component           &
+Component           & SBOL, SBOLDesigner, SBOLCanvas      & 2163                                & component           \\
 \hline  
-Module              & SBOL                                & 311                                 & module              &
+Module              & SBOL                                & 311                                 & module              \\
 \hline  
-Device              &                                     & 677                                 & device              &
+Device              &                                     & 677                                 & device              \\
 \hline  
-System              &                                     & 16098                               & system              &
+System              &                                     & 16098                               & system              \\
 \hline  
-RBS                 &                                     & 548                                 & rbs                 &
+RBS                 &                                     & 548                                 & rbs                 \\
 \hline  
-Ribosome Entry Site & SO                                  & 8                                   & ribosome entry site &
+Ribosome Entry Site & SO                                  & 8                                   & ribosome entry site \\
 \hline  
-Restriction Enzyme Recognition Site & SO & 0 & restriction enzyme recognition site &
+Restriction Enzyme Recognition Site & SO & 0 & restriction enzyme recognition site \\
 \hline  
-RERS & SBOLCanvas & 0 & rers&
+RERS & SBOLCanvas & 0 & rers \\
 \hline  
-Restriction Site & & 52 & restriction site &
+Restriction Site & & 52 & restriction site \\
 \hline  
-Upregulation        &                                     & 216                                 & upreg*              &
+Upregulation        &                                     & 216                                 & upreg*              \\
 \hline  
-Downregulation      &                                     & 195                                 & downreg*            &
+Downregulation      &                                     & 195                                 & downreg*            \\
 \hline  
-Stimulation & SBO, SBOLCanvas & 1666 & stimulat* &
+Stimulation & SBO, SBOLCanvas & 1666 & stimulat* \\
 \hline  
-Inhibition & SBO, SBOLCanvas & 3879 & inhibit* &
+Inhibition & SBO, SBOLCanvas & 3879 & inhibit* \\
 \hline  
 Positive Regulation & GO & 17 & positive reg* + positively reg* &
 \hline  
-Negative Regulation & GO                                  & 36                                  & negative reg* + negatively reg* &
+Negative Regulation & GO                                  & 36                                  & negative reg* + negatively reg* \\
 \hline  
-Role & SBOLDesigner & 2068 & role &
+Role & SBOLDesigner & 2068 & role \\
 \hline  
-Function & & 3567 & function &
+Function & & 3567 & function \\
 \hline  
-Backbone & SBOLCanvas & 444 & backbone &
+Backbone & SBOLCanvas & 444 & backbone \\
 \hline  
-Vector & & 1608 & vector &
+Vector & & 1608 & vector \\
 \hline  
-Plasmid & & 3026 &
+Plasmid & & 3026 \\
 \hline  
-Host & & 2507 & host + hosts &
+Host & & 2507 & host + hosts \\
 \hline  
 Chassis & & 3 & chassis + châssis
 \end{tabular}
