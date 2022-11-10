@@ -72,23 +72,23 @@ The table below shows an example of some of these terms and how they map to onto
 \hline  
 Silencing & verb & Biology & Inhibiting the expression of a gene & \texttt{GO:0010629} \emph{negative regulation of gene expression} & \url{https://en.wikipedia.org/wiki/Gene_silencing} \\
 \hline  
-Transformation & verb & Molecular Biology & Transferring genetic material into a cell. Typically, uptake of a plasmid into a cell or population of cells. & \texttt{EFO:0000726} \emph{transfection} & \url{https://en.wikipedia.org/wiki/Transformation_(genetics)} \\
+Transformation & verb & Molecular Biology & Transferring genetic material into a cell. Typically, uptake of a plasmid into a cell or population of cells. & \texttt{EFO:0000726} \emph{transfection} & \url{https://en.wikipedia.org/wiki/Transformation\_(genetics)} \\
 \hline  
-RBS & noun & Molecular Biology & Sequence that a ribosome recognises and attaches at to initiate translation & \texttt{SO:0000139} \emph{ribsome entry site} & \url{https://en.wikipedia.org/wiki/Ribosome-binding_site} \\
+RBS & noun & Molecular Biology & Sequence that a ribosome recognises and attaches at to initiate translation & \texttt{SO:0000139} \emph{ribsome entry site} & \url{https://en.wikipedia.org/wiki/Ribosome-binding\_site} \\
 \hline  
-Restriction Site & noun & Molecular Biology & The recognition sequence of a specific restriction enzyme & \texttt{SO:0001687} \emph{restriction enzyme recognition site} & \url{https://en.wikipedia.org/wiki/Restriction_site} \\
+Restriction Site & noun & Molecular Biology & The recognition sequence of a specific restriction enzyme & \texttt{SO:0001687} \emph{restriction enzyme recognition site} & \url{https://en.wikipedia.org/wiki/Restriction\_site} \\
 \hline  
-Digestion & verb & Molecular Biology & Using a restriction enzyme to cut a DNA sequence at a specific location (a restriction site) & \texttt{GO:0015666} \emph{restriction endodeoxyribonuclease activity} & \url{https://en.wikipedia.org/wiki/Restriction_digest} \\
+Digestion & verb & Molecular Biology & Using a restriction enzyme to cut a DNA sequence at a specific location (a restriction site) & \texttt{GO:0015666} \emph{restriction endodeoxyribonuclease activity} & \url{https://en.wikipedia.org/wiki/Restriction\_digest} \\
 \hline  
 Plate & verb & Microbiology & Put cells on solid media for growing & N/A & \url{https://en.wikipedia.org/wiki/Inoculation} \\
 \hline  
-Plate & noun & Microbiology & Labware containing solid growth media & N/A & \url{https://en.wikipedia.org/wiki/Petri_dish} \\
+Plate & noun & Microbiology & Labware containing solid growth media & N/A & \url{https://en.wikipedia.org/wiki/Petri\_dish} \\
 \hline  
-Downregulate & verb & Molecular Biology & Negatively influence gene expression & \texttt{GO:0010629} \emph{negative regulation of gene expression} \\ [Downregulation_and_upregulation](https://en.wikipedia.org/wiki/Downregulation_and_upregulation) \\
+Downregulate & verb & Molecular Biology & Negatively influence gene expression & \texttt{GO:0010629} \emph{negative regulation of gene expression} \\ \url{https://en.wikipedia.org/wiki/Downregulation\_and\_upregulation} \\
 \hline  
 Upregulate & verb & Molecular Biology & Positively influence gene expression & \texttt{GO:0010628} \emph{positive regulation of gene expression} \\
 \hline  
-\url{https://en.wikipedia.org/wiki/Downregulation_and_upregulation} \\
+\url{https://en.wikipedia.org/wiki/Downregulation\_and\_upregulation} \\
 \hline
 \end{tabular}
 
