@@ -100,8 +100,11 @@ Downregulate & Molecular Biology & Negatively influence gene expression & \textt
 Upregulate & Molecular Biology & Positively influence gene expression & \texttt{GO:0010628} \emph{positive regulation of gene expression} & \url{https://en.wikipedia.org/wiki/Downregulation\_and\_upregulation} \\
 \hline
 \end{tabular}
+
+
+### Publishing String to Term Mappings
   
-An issue we encountered in making the dictionary available is that there is no standard/FAIR data format to publish string to term mappings. The SSSOM (Super Simple Standard for Ontology Mappings) [@matentzoglu2022simple] supports term to term mappings, but not string to term. We have discussed with the SSSOM developers about implementing support for this, and are helping with a pull request (https://github.com/mapping-commons/sssom/pull/235) to add it to the standard. We will then hopefully be able to publish the dictionary in the future using SSSOM.
+One issue we encountered in making the dictionary available is that there is no standard/FAIR data format to publish string to term mappings. The SSSOM (Super Simple Standard for Ontology Mappings) [@matentzoglu2022simple] supports term to term mappings, but not string to term. We have discussed with the SSSOM developers about implementing support for this, and are helping with a pull request (https://github.com/mapping-commons/sssom/pull/235) to add it to the standard. We will then hopefully be able to publish the dictionary in the future using SSSOM.
 
 # Terminology in Microbial Biotechnology tools & resources
 
@@ -196,11 +199,9 @@ The dictionary is available in CSV format at
 
 # Future work
 
-We have used the Stack Exchange dataset to analyse the popularity of a small set of terms used in MB which differ between different tools. The next step would be to apply this to entire ontologies, annotating every label and synonym in the ontology with its popularity. This information could then be used to inform whether the primary label of the term should be preferred, or whether a synonym should be preferred instead.
-
-It would also be interesting to explore how the Stack Exchange datasets can be used to gather domain-specific language for different domains, using a similar approach subtracting “meta” terms and analysing the delta. There are 98 Stack Exchange sites at the time of writing.
-
-We intend to publish the dictionary using SSSOM, once the ability to map strings to terms has been implemented.
+* **Informing ontologies:** We have used the Stack Exchange dataset to analyse the popularity of a small set of terms used in MB which differ between different tools. The next step would be to apply this to entire ontologies, annotating every label and synonym in the ontology with its popularity. This information could then be used to inform whether the primary label of the term should be preferred, or whether a synonym should be preferred instead.
+* **Application to other domains:** It would also be interesting to explore how the Stack Exchange datasets can be used to gather domain-specific language for different domains, using a similar approach subtracting “meta” terms and analysing the delta. There are 98 Stack Exchange sites at the time of writing.
+* **FAIR publication of CWLD:** We intend to publish the dictionary using SSSOM, once the ability to map strings to terms has been implemented. This will allow it to be used with any tooling that supports SSSOM, without any specific code being added for CWLD.
 
 ## Acknowledgements
 
