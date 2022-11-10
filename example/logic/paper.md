@@ -83,11 +83,17 @@ One of the important considerations was that the same term can have different me
 \hline
 \rowcolor{gray}
 \textbf{Domain} & \textbf{Mapping} \\
+\hline
 Microbiology & \texttt{http://edamontology.org/topic_3301} \\
+\hline
 Molecular Biology & \texttt{http://edamontology.org/topic_3047} \\
+\hline
 Plant Biology & \texttt{http://edamontology.org/topic_0780} \\
+\hline
 Biochemistry & \texttt{http://edamontology.org/topic_3292} \\
+\hline
 Cell Biology & \texttt{http://edamontology.org/topic_2229} \\
+\hline
 Synthetic Biology & \texttt{http://edamontology.org/topic_3895} \\
 \end{tabular}
 \caption{Domains used by terms in the CWLD dictionary and their mappings to EDAM.}
