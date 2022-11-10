@@ -49,7 +49,7 @@ pasting above link (or yours) in
 
 -->
 
-# List of Abbreviations
+## List of Abbreviations
 CSV - Comma Separated Values; FAIR - Findable, Accessible, Interoperable and Reusable; GO - Gene Ontology; MB - Microbial Biotechnology; RBS - Ribosome Binding Site; SBO - Systems Biology Ontology; SBOL - Synthetic Biology Open Language; SE - Stack Exchange; SO - Sequence Ontology; SSSOM - Super Simple Standard for Ontology Mappings; XML - eXtensible Markup Language
 
 # Introduction
@@ -99,7 +99,7 @@ Upregulate & Molecular Biology & Positively influence gene expression & \texttt{
 \hline
 \end{tabular}
   
-# Terminology recommendations for Microbial Biotechnology tool developers
+# Terminology in Microbial Biotechnology tools & resources
 This list is non-exhaustive, but covers a selection of terms that we noticed differ between MB tools such as SBOLDesigner [@zhang2017sboldesigner] and SBOLCanvas [@terry2021sbolcanvas].
 
 
