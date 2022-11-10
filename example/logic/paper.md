@@ -74,7 +74,7 @@ Biology Stack Exchange is a forum where colloquial language is used to ask and a
 
 ## Creating a dictionary of colloquial wet lab terminology
  
-We used a combination of information gathered by talking to wet lab biologists at the BioHackathon, and wordclouds generated from the Biology Stack Exchange dataset, to generate a dictionary of colloquial wet lab biology language, which we have named CWLD (pronounced \emph{quilled}): Colloquial Wet Lab Dictionary. The table below shows a small example excerpt of CWLD terms and how they map to ontology terms.
+We used a combination of information gathered by talking to wet lab biologists at the BioHackathon, and wordclouds generated from the Biology Stack Exchange dataset, to generate a dictionary of colloquial wet lab biology language, which we have named CWLD (pronounced \emph{quilled}): Colloquial Wet Lab Dictionary. By the end of the BioHackathon, CWLD had 104 terms. As an example, the table below shows a small example excerpt of these terms and how they map to ontology terms.
   
 \begin{tabular}{ |p{1.8cm}|p{1.62cm}|p{3cm}|p{2.4cm}|p{3cm}| }
 \hline  
