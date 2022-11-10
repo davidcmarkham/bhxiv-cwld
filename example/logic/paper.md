@@ -65,62 +65,17 @@ An issue we encountered in making the dictionary available is that there is no s
 # Terminology recommendations for Microbial Biotechnology tool developers
 This list is non-exhaustive, but covers a selection of terms that we noticed differ between MB tools.
 
-<!-- Table no worky, how can we put a table into BiorXiv? -->
-<table>
-  <thead>
-    <th>Term</th>
-    <th>MB tools/ontologies using this term</th>
-    <th>Frequency on Biology Stack Exchange</th>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Component</td>
-      <td>SBOL, SBOLDesigner, SBOLCanvas</td>
-      <td>2163</td>
-    </tr>
-    <tr>
-      <td>Module</td>
-      <td>SBOL</td>
-      <td>311</td>
-    </tr>
-    <tr>
-      <td>Device</td>
-      <td></td>
-      <td>677</td>
-    </tr>
-    <tr>
-      <td>System</td>
-      <td></td>
-      <td>16098</td>
-    </tr>
-    <tr>
-      <td>Ribosome Entry Site</td>
-      <td>SO</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <td>RBS</td>
-      <td></td>
-      <td>548</td>
-    </tr>
-    <tr>
-      <td>Upregulation</td>
-      <td></td>
-      <td>79</td>
-    </tr>
-    <tr>
-      <td>Downregulation</td>
-      <td></td>
-      <td>91</td>
-    </tr>
-  </tbody>
-  </table>
-  
-| wasps |   |      |   |   |
-|-------|---|------|---|---|
-|       |   |      |   |   |
-|       |   | bees |   |   |
-|       |   |      |   |   |
+| Term                | MB tools/ontologies using this term | Frequency on Biology Stack Exchange |
+|---------------------|-------------------------------------|-------------------------------------|
+| Component           | SBOL, SBOLDesigner, SBOLCanvas      | 2163                                |
+| Module              | SBOL                                | 311                                 |
+| Device              |                                     | 677                                 |
+| System              |                                     | 16098                               |
+| RBS                 |                                     | 548                                 |
+| Ribosome Entry Site | SO                                  | 8                                   |
+| Upregulation        |                                     | 79                                  |
+| Downregulation      |                                     | 91                                  |
+
 
 # Results
 
