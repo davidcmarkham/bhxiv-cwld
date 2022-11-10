@@ -1,5 +1,5 @@
 ---
-title: 'Colloquial language mappings to ontologies for wet lab biology'
+title: 'Mapping colloquial wet lab language to ontologies'
 title_short: 'CWLD'
 tags:
   - ontologies
