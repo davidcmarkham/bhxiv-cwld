@@ -80,27 +80,12 @@ The table below shows an example of some of these terms and how they map to onto
 # Terminology recommendations for Microbial Biotechnology tool developers
 This list is non-exhaustive, but covers a selection of terms that we noticed differ between MB tools.
 
-  
-
-\begin{tabular}{ |p{3cm}|p{3cm}|p{3cm}|  }
-\hline
-\multicolumn{3}{|c|}{Country List} \\
-\hline
-Country Name or Area Name& ISO ALPHA 2 Code &ISO ALPHA 3 \\
-\hline
-American Samoa & AS & ASM \\
-\hline
-Andorra & AD & AND   \\
-\hline
-Angola & AO & AGO \\
-\hline
-\end{tabular}
 
 \begin{tabular}{ |p{3cm}|p{3cm}|p{3cm}|p{3cm}| }
 \hline  
-Term & MB tools/ontologies using this term & Frequency on Biology Stack Exchange & Search Term
+Term & MB tools/ontologies using this term & Frequency on Biology Stack Exchange & Search Term \\
 \hline  
-Part & iGEM & 9065 & part + parts &
+Part & iGEM & 9065 & part + parts \\
 \hline  
 Component           & SBOL, SBOLDesigner, SBOLCanvas      & 2163                                & component           \\
 \hline  
