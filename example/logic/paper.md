@@ -68,13 +68,13 @@ An issue we encountered in making the dictionary available is that there is no s
   
 The table below shows an example of some of these terms and how they map to ontology terms.
   
-\begin{tabular}{ |p{1.8cm}|p{1.6cm}|p{3cm}|p{2.4cm}|p{3cm}| }
+\begin{tabular}{ |p{1.8cm}|p{1.62cm}|p{3cm}|p{2.4cm}|p{3cm}| }
 \hline  
 \textbf{Name} & \textbf{Domain} & \textbf{Description} & \textbf{Mapping} & \textbf{Wikipedia} \\
 \hline  
 Silencing & Biology & Inhibiting the expression of a gene & \texttt{GO:0010629} \emph{negative regulation of gene expression} & \url{https://en.wikipedia.org/wiki/Gene_silencing} \\
 \hline  
-Transformation & Molecular Biology & Transferring genetic material into a cell. Typically, uptake of a plasmid into a cell or population of cells. & \texttt{EFO:0000726} \emph{transfection} & \url{https://en.wikipedia.org/wiki/Transformation\_(genetics)} \\
+Transform & Molecular Biology & Transferring genetic material into a cell. Typically, uptake of a plasmid into a cell or population of cells. & \texttt{EFO:0000726} \emph{transfection} & \url{https://en.wikipedia.org/wiki/Transformation\_(genetics)} \\
 \hline  
 RBS & Molecular Biology & Sequence that a ribosome recognises and attaches at to initiate translation & \texttt{SO:0000139} \emph{ribsome entry site} & \url{https://en.wikipedia.org/wiki/Ribosome-binding\_site} \\
 \hline  
