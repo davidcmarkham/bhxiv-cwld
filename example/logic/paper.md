@@ -76,6 +76,8 @@ Biology Stack Exchange is a forum where colloquial language is used to ask and a
  
 We used a combination of information gathered by talking to wet lab biologists at the BioHackathon, and wordclouds generated from the Biology Stack Exchange dataset, to generate a dictionary of colloquial wet lab biology language, which we have named CWLD (pronounced \emph{quilled}): Colloquial Wet Lab Dictionary. By the end of the BioHackathon, CWLD had 104 terms. As an example, the table below shows a small example excerpt of these terms and how they map to ontology terms.
   
+  
+\begin{figure}
 \begin{tabular}{ |p{1.8cm}|p{1.62cm}|p{3cm}|p{2.4cm}|p{3cm}| }
 \hline  
 \rowcolor{gray}
@@ -100,7 +102,8 @@ Downregulate & Molecular Biology & Negatively influence gene expression & \textt
 Upregulate & Molecular Biology & Positively influence gene expression & \texttt{GO:0010628} \emph{positive regulation of gene expression} & \url{https://en.wikipedia.org/wiki/Downregulation\_and\_upregulation} \\
 \hline
 \end{tabular}
-
+\caption{A small excerpt of terms in CWLD and their mappings. The complete dictionary has 104 terms as of the end of the BioHackathon.}
+\end{figure}
 
 ### Publishing String to Term Mappings
   
