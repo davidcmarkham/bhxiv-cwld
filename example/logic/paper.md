@@ -70,36 +70,26 @@ While initially developed to serve the MB community, we hope that the dictionary
 
 Biology Stack Exchange is a forum where colloquial language is used to ask and answer questions throughout the biology domain. We took the data available at [archive.org/download/stackexchange](https://archive.org/download/stackexchange) and extracted the words in the posts and comments to count up the frequency in which each word is used. To remove commonly used words and words that are non-specific to biology, we performed the same exercise on Meta Stack Exchange and subtracted the most commonly used words on the Meta dataset from the Biology dataset. This resulted in a set of words that were commonly used on the Biology Stack Exchange and the frequency in which each word appeared. We used this to generate a wordcloud.
 
-![Most commonly used words on Biology Stack Exchange](./wordcloud.png)
+![Most commonly used words on Biology SE. The 1000 most frequently used words in the Meta SE dataset were removed from the Biology SE dataset. The Meta SE dataset contained the first 100000 records for Posts and the same for Comments; the records on archive.org were updated on 08-Oct-2022 10:24 and 08-Oct-2022 00:47 for Meta SE and Biology SE respectively.](./wordcloud.png)
 
 ## Creating a dictionary of colloquial wet lab terminology
  
 We used a combination of information gathered by talking to wet lab biologists at the BioHackathon, and wordclouds generated from the Biology Stack Exchange dataset, to generate a dictionary of colloquial wet lab biology language, which we have named CWLD (pronounced \emph{quilled}): Colloquial Wet Lab Dictionary.
 
-One of the important considerations was that the same term can have different meanings depending on the domain. For example, _transformation_ to a microbiologist means transferring genetic material into a cell, while for a human biologist it means converting a cell to an immortal phenotype that divides infinitely. We therefore defined an initial set of domains we were interested in to categorise the terms. We also mapped these domains to the EDAM ontology.
+One of the important considerations was that the same term can have different meanings depending on the domain. For example, _transformation_ to a microbiologist means transferring genetic material into a cell, while for a human biologist it means converting a cell to an immortal phenotype that divides infinitely. We therefore defined an initial set of domains we were interested in to categorise the terms. Where possible, we also mapped these domains to the EDAM ontology.
 
-\centering
 \begin{figure}
-\begin{tabular}{ |p{4cm}|p{8cm}| }
+\begin{tabular}{ |p{3cm}|p{3cm}| 
 \hline
 \rowcolor{gray}
 \textbf{Domain} & \textbf{Mapping} \\
-\hline
-Microbiology & \texttt{http://edamontology.org/topic\_3301} \\
-\hline
-Molecular Biology & \texttt{http://edamontology.org/topic\_3047} \\
-\hline
-Plant Biology & \texttt{http://edamontology.org/topic\_0780} \\
-\hline
-Biochemistry & \texttt{http://edamontology.org/topic\_3292} \\
-\hline
-Cell Biology & \texttt{http://edamontology.org/topic\_2229} \\
-\hline
-Synthetic Biology & \texttt{http://edamontology.org/topic\_3895} \\
-\hline
+Microbiology & \texttt{http://edamontology.org/topic_3301} \\
+Molecular Biology & \texttt{http://edamontology.org/topic_3047} \\
+Plant Biology & \texttt{http://edamontology.org/topic_0780} \\
+Biochemistry & \texttt{http://edamontology.org/topic_3292} \\
+Cell Biology & \texttt{http://edamontology.org/topic_2229} \\
+Synthetic Biology & \texttt{http://edamontology.org/topic_3895} \\
 \end{tabular}
-\caption{Domains used by terms in the CWLD dictionary and their mappings to EDAM.}
-\end{figure}
 
 By the end of the BioHackathon, CWLD had 104 terms. As an example, the table below shows a small example excerpt of these terms and how they map to ontology terms.
   
