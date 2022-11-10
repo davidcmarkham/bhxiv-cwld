@@ -65,7 +65,7 @@ An issue we encountered in making the dictionary available is that there is no s
   
 The table below shows an example of some of these terms and how they map to ontology terms.
   
-\begin{tabular}{ |p{2cm}|p{1cm}|p{1.5cm}|p{3cm}|p{3cm}|p{3cm}| }
+\begin{tabular}{ |p{2cm}|p{1cm}|p{1.6cm}|p{3cm}|p{3cm}|p{3cm}| }
 \hline  
 \textbf{Name} & \textbf{Type} & \textbf{Domain} & \textbf{Description} & \textbf{Ontology Mapping} & \textbf{Wikipedia reference} \\
 \hline  
@@ -83,9 +83,9 @@ Plate & verb & Microbiology & Put cells on solid media for growing & N/A & \url{
 \hline  
 Plate & noun & Microbiology & Labware containing solid growth media & N/A & \url{https://en.wikipedia.org/wiki/Petri\_dish} \\
 \hline  
-Downregulate & verb & Molecular Biology & Negatively influence gene expression & \texttt{GO:0010629} \emph{negative regulation of gene expression} \\ \url{https://en.wikipedia.org/wiki/Downregulation\_and\_upregulation} \\
+Downregulate & verb & Molecular Biology & Negatively influence gene expression & \texttt{GO:0010629} \emph{negative regulation of gene expression} & \url{https://en.wikipedia.org/wiki/Downregulation\_and\_upregulation} \\
 \hline  
-Upregulate & verb & Molecular Biology & Positively influence gene expression & \texttt{GO:0010628} \emph{positive regulation of gene expression} \\
+Upregulate & verb & Molecular Biology & Positively influence gene expression & \texttt{GO:0010628} \emph{positive regulation of gene expression} &
 \hline  
 \url{https://en.wikipedia.org/wiki/Downregulation\_and\_upregulation} \\
 \hline
