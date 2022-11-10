@@ -113,7 +113,7 @@ Stimulation & SBO, SBOLCanvas & 1666 & stimulat* \\
 \hline  
 Inhibition & SBO, SBOLCanvas & 3879 & inhibit* \\
 \hline  
-Positive Regulation & GO & 17 & positive reg* + positively reg* &
+Positive Regulation & GO & 17 & positive reg* + positively reg* \\
 \hline  
 Negative Regulation & GO                                  & 36                                  & negative reg* + negatively reg* \\
 \hline  
