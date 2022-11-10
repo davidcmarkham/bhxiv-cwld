@@ -56,9 +56,9 @@ CSV - Comma Separated Values; FAIR - Findable, Accessible, Interoperable and Reu
 
 The use of ontology terms can make data more FAIR and tractable by machines. However, the highly formalised terminology used by these ontology terms does not always match the colloquial language used by practitioners. This disparity can (a) make it difficult for practitioners to understand the language used by knowledge stored in ontologies; and (b) make it difficult to machine-interpret information written by practitioners to map it to ontologies.
 
-This problem is particularly relevant in the ELIXIR Microbial Biotechnology (MB) community, as although the domain has adopted ontologies and data standards such as SO [@eilbeck2005sequence], SBO, GO, and SBOL for data representation, the tools developed often use ontology terms directly rather than the language used in the wet lab (i.e. by the people using the tools.)
+This problem is particularly relevant in the ELIXIR Microbial Biotechnology (MB) community, as although the domain has adopted ontologies and data standards such as SO [@eilbeck2005sequence], SBO [@courtot2011controlled], GO [@gene2004gene], and SBOL [@galdzicki2014synthetic] for data representation, the tools developed often use ontology terms directly rather than the language used in the wet lab (i.e. by the people using the tools.)
 
-At the BioHackathon 2022 in Paris, France, we initiated an effort to address this problem by (a) mining the internet for colloquial language used by biologists, (b) constructing a dictionary of this language and its mappings to ontology terms, and (c) constructing a recommendation table of terminology for MB tool developers based on this data.
+At the [BioHackathon](https://biohackathon-europe.org) 2022 in Paris, France, we initiated an effort to address this problem by (a) mining the internet for colloquial language used by biologists, (b) constructing a dictionary of this language and its mappings to ontology terms, and (c) constructing a recommendation table of terminology for MB tool developers based on this data.
 
 While initially developed to serve the MB community, we hope that the dictionary will serve as a helpful resource for anyone hoping to map from colloquial wet lab language to ontology terms for e.g. text mining applications.
 
@@ -70,7 +70,7 @@ Biology Stack Exchange is a forum where colloquial language is used to ask and a
 
 # Creating a dictionary of colloquial wet lab terminology
 
-An issue we encountered in making the dictionary available is that there is no standard/FAIR data format to publish string to term mappings. The SSSOM (Super Simple Standard for Ontology Mappings) supports term to term mappings, but not string to term. We have discussed with the SSSOM developers about implementing support for this, and are helping with a pull request to add it to the standard. We will then hopefully be able to publish the dictionary in the future using SSSOM.
+An issue we encountered in making the dictionary available is that there is no standard/FAIR data format to publish string to term mappings. The SSSOM (Super Simple Standard for Ontology Mappings) [@matentzoglu2022simple] supports term to term mappings, but not string to term. We have discussed with the SSSOM developers about implementing support for this, and are helping with a pull request to add it to the standard. We will then hopefully be able to publish the dictionary in the future using SSSOM.
   
 The table below shows an example of some of these terms and how they map to ontology terms.
   
@@ -99,7 +99,7 @@ Upregulate & Molecular Biology & Positively influence gene expression & \texttt{
 \end{tabular}
   
 # Terminology recommendations for Microbial Biotechnology tool developers
-This list is non-exhaustive, but covers a selection of terms that we noticed differ between MB tools.
+This list is non-exhaustive, but covers a selection of terms that we noticed differ between MB tools such as SBOLDesigner [@zhang2017sboldesigner] and SBOLCanvas [@terry2021sbolcanvas].
 
 
 \begin{tabular}{ |p{3cm}|p{3cm}|p{3cm}|p{3cm}| }
