@@ -79,22 +79,22 @@ We used a combination of information gathered by talking to wet lab biologists a
 One of the important considerations was that the same term can have different meanings depending on the domain. For example, _transformation_ to a microbiologist means transferring genetic material into a cell, while for a human biologist it means converting a cell to an immortal phenotype that divides infinitely. We therefore defined an initial set of domains we were interested in to categorise the terms. We also mapped these domains to the EDAM ontology and the FAIRsharing subject ontology (SRAO), where possible.
 
 \begin{figure}
-\begin{tabular}{ |p{3cm}|p{6cm}|p{6cm}| } 
+\begin{tabular}{ |p{3cm}|p{3cm}|p{3cm}| } 
 \hline
 \rowcolor{gray}
 \textbf{Domain} & \textbf{EDAM} & \textbf{SRAO} \\
 \hline
-Microbiology & \texttt{http://edamontology.org/topic\_3301} & \texttt{NCIT:C16851} \\
+Microbiology & \texttt{EDAM:topic\_3301} & \texttt{NCIT:C16851} \\
 \hline
-Molecular Biology & \texttt{http://edamontology.org/topic\_3047} & \texttt{http://edamontology.org/topic\_3047} \\
+Molecular Biology & \texttt{EDAM:topic\_3047} & \texttt{EDAM:topic\_3047} \\
 \hline
-Plant Biology & \texttt{http://edamontology.org/topic\_0780} & \\
+Plant Biology & \texttt{EDAM:topic\_0780} & \\
 \hline
-Biochemistry & \texttt{http://edamontology.org/topic\_3292} & \texttt{http://edamontology.org/topic\_3292} \\
+Biochemistry & \texttt{EDAM:topic\_3292} & \texttt{EDAM:topic\_3292} \\
 \hline
-Cell Biology & \texttt{http://edamontology.org/topic\_2229} & \texttt{NCIT:C17992} \\
+Cell Biology & \texttt{EDAM:topic\_2229} & \texttt{NCIT:C17992} \\
 \hline
-Synthetic Biology & \texttt{http://edamontology.org/topic\_3895} & \texttt{OMIT:0027298} \\
+Synthetic Biology & \texttt{EDAM:topic\_3895} & \texttt{OMIT:0027298} \\
 \hline
 \end{tabular}
 \caption{Domains used by terms in CWLD and their mapping to EDAM.}
