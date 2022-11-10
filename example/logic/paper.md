@@ -63,7 +63,7 @@ Biology Stack Exchange is a forum where colloquial language is used to ask and a
 
 An issue we encountered in making the dictionary available is that there is no standard/FAIR data format to publish string to term mappings. The SSSOM (Super Simple Standard for Ontology Mappings) supports term to term mappings, but not string to term. We have discussed with the SSSOM developers about implementing support for this, and are helping with a pull request to add it to the standard. We will then hopefully be able to publish the dictionary in the future using SSSOM.
   
-The table below shows an example of some of these terms and how they map to ontology terms.\begin{
+The table below shows an example of some of these terms and how they map to ontology terms.
   
 \begin{tabular}{ |p{2cm}|p{1cm}|p{3cm}|p{3cm}|p{3cm}|p{3cm}| }
 \hline  
@@ -71,7 +71,7 @@ The table below shows an example of some of these terms and how they map to onto
 \hline  
 Silencing & verb & Biology & Inhibiting the expression of a gene & \texttt{GO:0010629} \emph{negative regulation of gene expression} & \url{https://en.wikipedia.org/wiki/Gene_silencing} \\
 \hline  
-Transformation & verb & Molecular Biology & Transferring genetic material into a cell. Typically, uptake of a plasmid into a cell or population of cells. & \texttt{EFO:0000726} \\ \emph{transfection} & \url{https://en.wikipedia.org/wiki/Transformation\_(genetics)} \\
+Transformation & verb & Molecular Biology & Transferring genetic material into a cell. Typically, uptake of a plasmid into a cell or population of cells. & \texttt{EFO:0000726} \emph{transfection} & \url{https://en.wikipedia.org/wiki/Transformation\_(genetics)} \\
 \hline  
 RBS & noun & Molecular Biology & Sequence that a ribosome recognises and attaches at to initiate translation & \texttt{SO:0000139} \emph{ribsome entry site} & \url{https://en.wikipedia.org/wiki/Ribosome-binding\_site} \\
 \hline  
