@@ -96,7 +96,7 @@ Angola & AO & AGO \\
 \hline
 \end{tabular}
 
-\begin{tabular}{p{3cm}|p{3cm}|p{3cm}|p{3cm}}
+\begin{tabular}{ |p{3cm}|p{3cm}|p{3cm}|p{3cm}| }
 \hline  
 Term & MB tools/ontologies using this term & Frequency on Biology Stack Exchange & Search Term
 \hline  
@@ -144,7 +144,8 @@ Plasmid & & 3026 \\
 \hline  
 Host & & 2507 & host + hosts \\
 \hline  
-Chassis & & 3 & chassis + châssis
+Chassis & & 3 & chassis + châssis \\
+\hline
 \end{tabular}
 
   
