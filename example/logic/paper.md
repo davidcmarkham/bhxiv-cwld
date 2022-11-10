@@ -64,9 +64,7 @@ Biology Stack Exchange is a forum where colloquial language is used to ask and a
 An issue we encountered in making the dictionary available is that there is no standard/FAIR data format to publish string to term mappings. The SSSOM (Super Simple Standard for Ontology Mappings) supports term to term mappings, but not string to term. We have discussed with the SSSOM developers about implementing support for this, and are helping with a pull request to add it to the standard. We will then hopefully be able to publish the dictionary in the future using SSSOM.
   
 The table below shows an example of some of these terms and how they map to ontology terms.
-
-\vspace*{\fill}
-\noindent
+\hspace*{-1.5in}
 \begin{tabular}{ |p{3cm}|p{1cm}|p{3cm}|p{3cm}|p{3cm}|p{3cm}| }
 \hline  
 \textbf{Name} & \textbf{Type} & \textbf{Domain} & \textbf{Description} & \textbf{Ontology Mapping} & \textbf{Wikipedia reference} \\
