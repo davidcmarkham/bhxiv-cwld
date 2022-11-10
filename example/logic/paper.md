@@ -65,9 +65,8 @@ An issue we encountered in making the dictionary available is that there is no s
 # Terminology recommendations for Microbial Biotechnology tool developers
 This list is non-exhaustive, but covers a selection of terms that we noticed differ between MB tools.
 
-<!--
 | Term                | MB tools/ontologies using this term | Frequency on Biology Stack Exchange |
-|---------------------|-------------------------------------|-------------------------------------|
+|:-------------------:|:-----------------------------------:|:-----------------------------------:|
 | Component           | SBOL, SBOLDesigner, SBOLCanvas      | 2163                                |
 | Module              | SBOL                                | 311                                 |
 | Device              |                                     | 677                                 |
@@ -76,7 +75,6 @@ This list is non-exhaustive, but covers a selection of terms that we noticed dif
 | Ribosome Entry Site | SO                                  | 8                                   |
 | Upregulation        |                                     | 79                                  |
 | Downregulation      |                                     | 91                                  |
--->
 
 # Results
 
