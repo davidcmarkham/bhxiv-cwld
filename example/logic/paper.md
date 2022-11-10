@@ -43,7 +43,7 @@ pasting above link (or yours) in
 
 -->
 
-\newgeometry{left=3cm,bottom=0.1cm}
+\newgeometry{left=4cm,bottom=1cm}
 
 # Introduction
 
