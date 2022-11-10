@@ -70,25 +70,25 @@ The table below shows an example of some of these terms and how they map to onto
 \hline  
 \textbf{Name} & \textbf{Type} & \textbf{Domain} & \textbf{Description} & \textbf{Ontology Mapping} & \textbf{Wikipedia reference} \\
 \hline  
-Silencing & verb & Biology & Inhibiting the expression of a gene & GO:0010629 "negative regulation of gene expression" & [Gene_silencing](https://en.wikipedia.org/wiki/Gene_silencing) \\
+Silencing & verb & Biology & Inhibiting the expression of a gene & \texttt{GO:0010629} \emph{negative regulation of gene expression} & [Gene_silencing](https://en.wikipedia.org/wiki/Gene_silencing) \\
 \hline  
-Transformation & verb & Molecular Biology & Transferring genetic material into a cell. Typically, uptake of a plasmid into a cell or population of cells. & EFO:0000726 "transfection" & [Transformation_(genetics)](https://en.wikipedia.org/wiki/Transformation_(genetics)) \\
+Transformation & verb & Molecular Biology & Transferring genetic material into a cell. Typically, uptake of a plasmid into a cell or population of cells. & \texttt{EFO:0000726} \emph{transfection} & \url{https://en.wikipedia.org/wiki/Transformation_(genetics)} \\
 \hline  
-RBS & noun & Molecular Biology & Sequence that a ribosome recognises and attaches at to initiate translation & SO:0000139 "ribsome entry site" & [Ribosome-binding_site](https://en.wikipedia.org/wiki/Ribosome-binding_site) \\
+RBS & noun & Molecular Biology & Sequence that a ribosome recognises and attaches at to initiate translation & \texttt{SO:0000139} \emph{ribsome entry site} & \url{https://en.wikipedia.org/wiki/Ribosome-binding_site} \\
 \hline  
-Restriction Site & noun & Molecular Biology & The recognition sequence of a specific restriction enzyme & SO:0001687 "restriction enzyme recognition site" & [Restriction_site](https://en.wikipedia.org/wiki/Restriction_site) \\
+Restriction Site & noun & Molecular Biology & The recognition sequence of a specific restriction enzyme & \texttt{SO:0001687} \emph{restriction enzyme recognition site} & \url{https://en.wikipedia.org/wiki/Restriction_site} \\
 \hline  
-Digestion & verb & Molecular Biology & Using a restriction enzyme to cut a DNA sequence at a specific location (a restriction site) & GO:0015666 "restriction endodeoxyribonuclease activity" & [Restriction_digest](https://en.wikipedia.org/wiki/Restriction_digest) \\
+Digestion & verb & Molecular Biology & Using a restriction enzyme to cut a DNA sequence at a specific location (a restriction site) & \texttt{GO:0015666} \emph{restriction endodeoxyribonuclease activity} & \url{https://en.wikipedia.org/wiki/Restriction_digest} \\
 \hline  
-Plate & verb & Microbiology & Put cells on solid media for growing & N/A & [Inoculation](https://en.wikipedia.org/wiki/Inoculation) \\
+Plate & verb & Microbiology & Put cells on solid media for growing & N/A & \url{https://en.wikipedia.org/wiki/Inoculation} \\
 \hline  
-Plate & noun & Microbiology & Labware containing solid growth media & N/A & [Petri_dish](https://en.wikipedia.org/wiki/Petri_dish) \\
+Plate & noun & Microbiology & Labware containing solid growth media & N/A & \url{https://en.wikipedia.org/wiki/Petri_dish} \\
 \hline  
-Downregulate & verb & Molecular Biology & Negatively influence gene expression & GO:0010629 "negative regulation of gene expression" \\ [Downregulation_and_upregulation](https://en.wikipedia.org/wiki/Downregulation_and_upregulation) \\
+Downregulate & verb & Molecular Biology & Negatively influence gene expression & \texttt{GO:0010629} \emph{negative regulation of gene expression} \\ [Downregulation_and_upregulation](https://en.wikipedia.org/wiki/Downregulation_and_upregulation) \\
 \hline  
-Upregulate & verb & Molecular Biology & Positively influence gene expression & GO:0010628 "positive regulation of gene expression" \\
+Upregulate & verb & Molecular Biology & Positively influence gene expression & \texttt{GO:0010628} \emph{positive regulation of gene expression} \\
 \hline  
-[Downregulation_and_upregulation](https://en.wikipedia.org/wiki/Downregulation_and_upregulation) \\
+\url{https://en.wikipedia.org/wiki/Downregulation_and_upregulation} \\
 \hline
 \end{tabular}
 
