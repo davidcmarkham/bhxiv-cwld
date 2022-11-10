@@ -76,28 +76,29 @@ Biology Stack Exchange is a forum where colloquial language is used to ask and a
  
 We used a combination of information gathered by talking to wet lab biologists at the BioHackathon, and wordclouds generated from the Biology Stack Exchange dataset, to generate a dictionary of colloquial wet lab biology language, which we have named CWLD (pronounced \emph{quilled}): Colloquial Wet Lab Dictionary.
 
-One of the important considerations was that the same term can have different meanings depending on the domain. For example, _transformation_ to a microbiologist means transferring genetic material into a cell, while for a human biologist it means converting a cell to an immortal phenotype that divides infinitely. We therefore defined an initial set of domains we were interested in to categorise the terms. We also mapped these domains to the EDAM ontology.
+One of the important considerations was that the same term can have different meanings depending on the domain. For example, _transformation_ to a microbiologist means transferring genetic material into a cell, while for a human biologist it means converting a cell to an immortal phenotype that divides infinitely. We therefore defined an initial set of domains we were interested in to categorise the terms. We also mapped these domains to the EDAM ontology and the FAIRsharing subject ontology (SRAO), where possible.
 
 \begin{figure}
-\begin{tabular}{ |p{4cm}|p{8cm}| 
+\begin{tabular}{ |p{3cm}|p{6cm}|p{6cm}| } 
 \hline
 \rowcolor{gray}
-\textbf{Domain} & \textbf{Mapping} \\
+\textbf{Domain} & \textbf{EDAM} & \textbf{SRAO} \\
 \hline
-Microbiology & \texttt{http://edamontology.org/topic_3301} \\
+Microbiology & \texttt{http://edamontology.org/topic\_3301} & \texttt{NCIT:C16851} \\
 \hline
-Molecular Biology & \texttt{http://edamontology.org/topic_3047} \\
+Molecular Biology & \texttt{http://edamontology.org/topic\_3047} & \texttt{http://edamontology.org/topic\_3047} \\
 \hline
-Plant Biology & \texttt{http://edamontology.org/topic_0780} \\
+Plant Biology & \texttt{http://edamontology.org/topic\_0780} & \\
 \hline
-Biochemistry & \texttt{http://edamontology.org/topic_3292} \\
+Biochemistry & \texttt{http://edamontology.org/topic\_3292} & \texttt{http://edamontology.org/topic\_3292} \\
 \hline
-Cell Biology & \texttt{http://edamontology.org/topic_2229} \\
+Cell Biology & \texttt{http://edamontology.org/topic\_2229} & \texttt{NCIT:C17992} \\
 \hline
-Synthetic Biology & \texttt{http://edamontology.org/topic_3895} \\
+Synthetic Biology & \texttt{http://edamontology.org/topic\_3895} & \texttt{OMIT:0027298} \\
 \hline
 \end{tabular}
 \caption{Domains used by terms in CWLD and their mapping to EDAM.}
+\end{figure}
 
 By the end of the BioHackathon, CWLD had 104 terms. As an example, the table below shows a small example excerpt of these terms and how they map to ontology terms.
   
