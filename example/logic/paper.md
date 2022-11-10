@@ -96,6 +96,7 @@ Biochemistry & \texttt{http://edamontology.org/topic\_3292} \\
 Cell Biology & \texttt{http://edamontology.org/topic\_2229} \\
 \hline
 Synthetic Biology & \texttt{http://edamontology.org/topic\_3895} \\
+\hline
 \end{tabular}
 \caption{Domains used by terms in the CWLD dictionary and their mappings to EDAM.}
 \end{figure}
