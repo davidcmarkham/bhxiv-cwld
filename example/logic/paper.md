@@ -97,7 +97,7 @@ Cell Biology & \texttt{EDAM:topic\_2229} & \texttt{NCIT:C17992} \\
 Synthetic Biology & \texttt{EDAM:topic\_3895} & \texttt{OMIT:0027298} \\
 \hline
 \end{tabular}
-\caption{Domains used by terms in CWLD and their mapping to EDAM.}
+\caption{Domains used by terms in CWLD and their mappings to EDAM and SRAO.}
 \end{figure}
 
 By the end of the BioHackathon, CWLD had 104 terms. As an example, the table below shows a small example excerpt of these terms and how they map to ontology terms.
